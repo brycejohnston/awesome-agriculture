@@ -12,6 +12,8 @@ A curated list of awesome tools, tutorials and APIs related to Agriculture.
 
 ## Crop Modeling, Phenotyping, and Pathology
 
+* [Open Plant Pathology](https://www.openplantpathology.org/) - A community that values open data and computational tools for advancing epidemiology and pathogen population biology and ecology
+
 ## Farm Management Systems and Record Keeping
 
 ### Open Source
