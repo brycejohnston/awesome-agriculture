@@ -17,6 +17,7 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 
 ## Datasets, Machine Learning and AI
 
+* [agridat](https://github.com/kwstat/agridat) - R package providing an extensive collection of datasets from agricultural experiments
 * [CWFID](https://github.com/cwfid/dataset) - Crop/Weed Field Image Dataset comprises field images, vegetation segmentation masks and crop/weed plant type annotations
 * [PlantCV](https://github.com/danforthcenter/plantcv) - Plant phenotyping using computer vision. Built with Python
 
