@@ -1,12 +1,14 @@
 # Awesome Agriculture [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome tools, tutorials and APIs related to Agriculture.
+A curated list of awesome tools, software and APIs related to Agriculture.
 
 ## Climate and Weather
 
-* [PyETo](https://github.com/woodcrafty/PyETo) - Python package for calculating reference/potential evapotranspiration (ETo)
-* [evapotranspiration](https://github.com/agrideveloper/evapotranspiration) - Ruby library for calculating reference crop evapotranspiration (ETo)
 * [agroclimatology](https://github.com/agrideveloper/agroclimatology) - Ruby client for interacting with the NASA (POWER) Agroclimatology Web Resource
+* [evapotranspiration](https://github.com/agrideveloper/evapotranspiration) - Ruby library for calculating reference crop evapotranspiration (ETo)
+* [frostline](https://github.com/waldoj/frostline) - A dataset, API, and parser for USDA plant hardiness zones - Python
+* [PyETo](https://github.com/woodcrafty/PyETo) - Python package for calculating reference/potential evapotranspiration (ETo)
+
 
 ## Crop Modeling, Phenotyping, and Pathology
 
@@ -20,11 +22,14 @@ A curated list of awesome tools, tutorials and APIs related to Agriculture.
 
 ### Open Source
 
+* [farmOS](https://github.com/farmOS/farmOS) - Web-based farm record keeping application. Built with Drupal and PHP
 * [Ekylibre](https://github.com/ekylibre/ekylibre) - Farm management information system for farmers and small enterprises. Built with Ruby on Rails and PostgreSQL/PostGIS
 * [Tania](https://github.com/Tanibox/tania-core) - Free and open source farming management system for everyone. Built with Go and Vue
-* [farmOS](https://github.com/farmOS/farmOS) - Web-based farm record keeping application. Built with Drupal and PHP
 
 ### Commercial
+
+## Knowledgebases and Learning Resources
+* [OpenFarm](https://github.com/openfarmcc/OpenFarm) - A free and open database for farming and gardening knowledge. Built with Ruby on Rails
 
 ## Machine Learning and AI
 
