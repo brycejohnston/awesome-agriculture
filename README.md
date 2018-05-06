@@ -34,3 +34,6 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 
 ## Knowledgebases and Learning Resources
 * [OpenFarm](https://github.com/openfarmcc/OpenFarm) - A free and open database for farming and gardening knowledge. Built with Ruby on Rails
+
+## Remote Sensing and Imagery
+* [Sen2Agri](https://github.com/Sen2Agri/Sen2Agri-System) - Sentinel-2 for Agriculture is a software system processing high resolution satellite images for agricultural purposes funded by ESA.
