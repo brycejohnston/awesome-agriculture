@@ -2,8 +2,6 @@
 
 A curated list of awesome tools, tutorials and APIs related to Agriculture.
 
-## APIs
-
 ## Climate and Weather
 
 * [PyETo](https://github.com/woodcrafty/PyETo) - Python package for calculating reference/potential evapotranspiration (ETo)
@@ -13,6 +11,10 @@ A curated list of awesome tools, tutorials and APIs related to Agriculture.
 ## Crop Modeling, Phenotyping, and Pathology
 
 * [Open Plant Pathology](https://www.openplantpathology.org/) - A community that values open data and computational tools for advancing epidemiology and pathogen population biology and ecology
+
+## Data Standardization, Interoperability and APIs
+
+* [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners
 
 ## Farm Management Systems and Record Keeping
 
