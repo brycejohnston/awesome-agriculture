@@ -32,6 +32,10 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 * [Ekylibre](https://github.com/ekylibre/ekylibre) - Farm management information system for farmers and small enterprises. Built with Ruby on Rails and PostgreSQL/PostGIS
 * [Tania](https://github.com/Tanibox/tania-core) - Free and open source farming management system for everyone. Built with Go and Vue
 
+## IoT, Automation and Robotics
+
+* [MIT Open Agriculture Initiative](https://github.com/openaginitiative) -  Open Source ecosystem of technologies that enable and promote transparency, networked experimentation, education, and hyper-local production
+
 ## Knowledgebases and Learning Resources
 * [OpenFarm](https://github.com/openfarmcc/OpenFarm) - A free and open database for farming and gardening knowledge. Built with Ruby on Rails
 
