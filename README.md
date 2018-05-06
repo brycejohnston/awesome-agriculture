@@ -2,12 +2,13 @@
 
 A curated list of awesome open source and/or free tools, software and APIs related to Agriculture.
 
-## Climate and Weather
+## Climate, Environment and Weather
 
 * [agroclimatology](https://github.com/agrideveloper/agroclimatology) - Ruby client for interacting with the NASA (POWER) Agroclimatology Web Resource
 * [evapotranspiration](https://github.com/agrideveloper/evapotranspiration) - Ruby library for calculating reference crop evapotranspiration (ETo)
-* [frostline](https://github.com/waldoj/frostline) - A dataset, API, and parser for USDA plant hardiness zones - Python
+* [frostline](https://github.com/waldoj/frostline) - A dataset, API, and parser for USDA plant hardiness zones - Built with Python
 * [PyETo](https://github.com/woodcrafty/PyETo) - Python package for calculating reference/potential evapotranspiration (ETo)
+* [soilDB](https://github.com/ncss-tech/soilDB) - Simplified Access to NCSS Soil Databases. Built with R
 
 
 ## Crop Modeling, Phenotyping, and Pathology
