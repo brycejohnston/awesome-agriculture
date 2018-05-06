@@ -28,6 +28,9 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 
 ### Tools for working with Proprietary  APIs and Data
 
+#### agX Platform
+* [agx-ruby](https://github.com/agrideveloper/agx-ruby) - Ruby client for SST Software's agX Platform APIs
+
 #### John Deere
 * [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing
 * [MyJohnDeereAPI-OAuth-CS-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-CS-Client) - C# MyJohnDeere API client implementation
