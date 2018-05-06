@@ -22,9 +22,23 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 * [CWFID](https://github.com/cwfid/dataset) - Crop/Weed Field Image Dataset comprises field images, vegetation segmentation masks and crop/weed plant type annotations
 * [PlantCV](https://github.com/danforthcenter/plantcv) - Plant phenotyping using computer vision. Built with Python
 
-## Data Standardization, Interoperability and APIs
+## Data Standardization and Interoperability and APIs
 
 * [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners
+
+## Tools for working with Proprietary  APIs and Data
+
+### John Deere
+* [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing
+* [MyJohnDeereAPI-OAuth-CS-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-CS-Client) - C# MyJohnDeere API client implementation
+* [MyJohnDeereAPI-OAuth-Java-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Java-Client) - Java MyJohnDeere API client implementation
+* [MyJohnDeereAPI-OAuth-NodeJS-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-NodeJS-Client) - NodeJS MyJohnDeere API client implementation
+* [MyJohnDeereAPI-OAuth-PHP-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-PHP-Client) - PHP MyJohnDeere API client implementation
+* [MyJohnDeereAPI-OAuth-Python-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Python-Client) - Python MyJohnDeere API client implementation
+* [MyJohnDeereAPI-OAuth-Python3-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Python3-Client) - Python3 MyJohnDeere API client implementation
+* [MyJohnDeereAPI-OAuth-Ruby-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Ruby-Client) - Ruby MyJohnDeere API client implementation
+
+
 
 ## Farm Management Systems and Record Keeping
 
