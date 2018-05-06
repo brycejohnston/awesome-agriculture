@@ -22,13 +22,13 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 * [CWFID](https://github.com/cwfid/dataset) - Crop/Weed Field Image Dataset comprises field images, vegetation segmentation masks and crop/weed plant type annotations
 * [PlantCV](https://github.com/danforthcenter/plantcv) - Plant phenotyping using computer vision. Built with Python
 
-## Data Standardization and Interoperability and APIs
+## Data Standardization, Interoperability and APIs
 
 * [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners
 
-## Tools for working with Proprietary  APIs and Data
+### Tools for working with Proprietary  APIs and Data
 
-### John Deere
+#### John Deere
 * [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing
 * [MyJohnDeereAPI-OAuth-CS-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-CS-Client) - C# MyJohnDeere API client implementation
 * [MyJohnDeereAPI-OAuth-Java-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Java-Client) - Java MyJohnDeere API client implementation
