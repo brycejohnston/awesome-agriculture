@@ -18,6 +18,7 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 ## Datasets, Machine Learning and AI
 
 * [agridat](https://github.com/kwstat/agridat) - R package providing an extensive collection of datasets from agricultural experiments
+* [Ag-Analytics](https://github.com/woodardjoshua/Ag-Analytics) - Ag-Analtyics is a open data/open source data warehouse, repository contains code used to source and scrape data from the various sources it uses
 * [Crop Yield Prediction](https://github.com/JiaxuanYou/crop_yield_prediction) - Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data. Built with python
 * [CWFID](https://github.com/cwfid/dataset) - Crop/Weed Field Image Dataset comprises field images, vegetation segmentation masks and crop/weed plant type annotations
 * [PlantCV](https://github.com/danforthcenter/plantcv) - Plant phenotyping using computer vision. Built with Python
