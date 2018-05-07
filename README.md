@@ -1,6 +1,6 @@
 # Awesome Agriculture [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome open source and/or free tools, software and APIs related to Agriculture.
+A curated list of awesome open source and/or free tools, software and APIs related to Agriculture. Also includes open source API clients and tools to work with proprietary APIs and data.
 
 ## Climate, Environment and Weather
 
@@ -30,11 +30,23 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 
 ### Tools for working with Proprietary  APIs and Data
 
-#### agX Platform
+#### [Agworld](https://agworld.co)
+
+* [agworld_api_client](https://github.com/agworld/agworld_api_client) - Example Agworld API Ruby client library that is compliant with specification defined by jsonapi.org
+
+#### [agX Platform](http://www.agxplatform.com)
 
 * [agx-ruby](https://github.com/agrideveloper/agx-ruby) - Ruby client for SST Software's agX Platform APIs
 
-#### John Deere
+#### [aWhere](http://developer.awhere.com)
+
+* [API-Code-Samples](https://github.com/aWhereAPI/API-Code-Samples) - Get jumpstarted with aWhere's API platforms using these code samples
+
+#### [Iteris ClearAg](https://docs.clearag.com)
+
+* [ClearAg-API-Examples](https://github.com/IterisClearAg/ClearAg-API-Examples) - A collection of code examples using the ClearAg APIs
+
+#### [John Deere](https://developer.deere.com)
 
 * [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing
 * [MyJohnDeereAPI-OAuth-CS-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-CS-Client) - C# MyJohnDeere API client implementation
