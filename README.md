@@ -8,6 +8,7 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 * [evapotranspiration](https://github.com/agrideveloper/evapotranspiration) - Ruby library for calculating reference crop evapotranspiration (ETo)
 * [frostline](https://github.com/waldoj/frostline) - A dataset, API, and parser for USDA plant hardiness zones - Built with Python
 * [PyETo](https://github.com/woodcrafty/PyETo) - Python package for calculating reference/potential evapotranspiration (ETo)
+* [pyTSEB](https://github.com/hectornieto/pyTSEB) - A python Two Source Energy Balance model for estimation of evapotranspiration with remote sensing data
 * [soilDB](https://github.com/ncss-tech/soilDB) - Simplified Access to NCSS Soil Databases. Built with R
 
 
@@ -25,6 +26,7 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 ## Data Standardization, Interoperability and APIs
 
 * [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners
+* [OADA](https://github.com/oada) - The Open Ag Data Alliance is an open project designed to bring interoperability, security, and privacy to agricultural data.
 
 ### Tools for working with Proprietary  APIs and Data
 
