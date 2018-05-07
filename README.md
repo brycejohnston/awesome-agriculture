@@ -11,7 +11,6 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 * [pyTSEB](https://github.com/hectornieto/pyTSEB) - A python Two Source Energy Balance model for estimation of evapotranspiration with remote sensing data
 * [soilDB](https://github.com/ncss-tech/soilDB) - Simplified Access to NCSS Soil Databases. Built with R
 
-
 ## Crop Modeling, Phenotyping, and Pathology
 
 * [Open Plant Pathology](https://www.openplantpathology.org/) - A community that values open data and computational tools for advancing epidemiology and pathogen population biology and ecology
@@ -31,9 +30,11 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 ### Tools for working with Proprietary  APIs and Data
 
 #### agX Platform
+
 * [agx-ruby](https://github.com/agrideveloper/agx-ruby) - Ruby client for SST Software's agX Platform APIs
 
 #### John Deere
+
 * [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing
 * [MyJohnDeereAPI-OAuth-CS-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-CS-Client) - C# MyJohnDeere API client implementation
 * [MyJohnDeereAPI-OAuth-Java-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Java-Client) - Java MyJohnDeere API client implementation
@@ -42,8 +43,6 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 * [MyJohnDeereAPI-OAuth-Python-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Python-Client) - Python MyJohnDeere API client implementation
 * [MyJohnDeereAPI-OAuth-Python3-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Python3-Client) - Python3 MyJohnDeere API client implementation
 * [MyJohnDeereAPI-OAuth-Ruby-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Ruby-Client) - Ruby MyJohnDeere API client implementation
-
-
 
 ## Farm Management Systems and Record Keeping
 
@@ -56,7 +55,10 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 * [MIT Open Agriculture Initiative](https://github.com/openaginitiative) -  Open Source ecosystem of technologies that enable and promote transparency, networked experimentation, education, and hyper-local production
 
 ## Knowledgebases and Learning Resources
+
 * [OpenFarm](https://github.com/openfarmcc/OpenFarm) - A free and open database for farming and gardening knowledge. Built with Ruby on Rails
 
 ## Remote Sensing and Imagery
+
+* [Raster Vision](https://github.com/azavea/raster-vision) - Deep learning for aerial/satellite imagery
 * [Sen2Agri](https://github.com/Sen2Agri/Sen2Agri-System) - Sentinel-2 for Agriculture is a software system processing high resolution satellite images for agricultural purposes funded by ESA.
