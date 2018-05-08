@@ -7,6 +7,8 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 * [agroclimatology](https://github.com/agrideveloper/agroclimatology) - Ruby client for interacting with the NASA (POWER) Agroclimatology Web Resource
 * [evapotranspiration](https://github.com/agrideveloper/evapotranspiration) - Ruby library for calculating reference crop evapotranspiration (ETo)
 * [frostline](https://github.com/waldoj/frostline) - A dataset, API, and parser for USDA plant hardiness zones - Built with Python
+* [GSODR](https://github.com/ropensci/GSODR) - Global Summary Daily Weather Data in R
+* [iem](https://github.com/akrherz/iem) - Code that makes the Iowa Environmental Mesonet run
 * [PyETo](https://github.com/woodcrafty/PyETo) - Python package for calculating reference/potential evapotranspiration (ETo)
 * [pyTSEB](https://github.com/hectornieto/pyTSEB) - A python Two Source Energy Balance model for estimation of evapotranspiration with remote sensing data
 * [soilDB](https://github.com/ncss-tech/soilDB) - Simplified Access to NCSS Soil Databases. Built with R
