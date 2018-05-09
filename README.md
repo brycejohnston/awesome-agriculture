@@ -22,6 +22,7 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 ## Climate, Environment and Weather
 
 * [agroclimatology](https://github.com/agrideveloper/agroclimatology) - Ruby client for interacting with the NASA (POWER) Agroclimatology Web Resource
+* [bomrang](https://github.com/ropensci/bomrang) - Australian Government Bureau of Meteorology Data From R
 * [evapotranspiration](https://github.com/agrideveloper/evapotranspiration) - Ruby library for calculating reference crop evapotranspiration (ETo)
 * [frostline](https://github.com/waldoj/frostline) - A dataset, API, and parser for USDA plant hardiness zones - Built with Python
 * [GSODR](https://github.com/ropensci/GSODR) - Global Summary Daily Weather Data in R
