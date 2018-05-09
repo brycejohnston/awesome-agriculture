@@ -30,7 +30,7 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 * [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners
 * [OADA](https://github.com/oada) - The Open Ag Data Alliance is an open project designed to bring interoperability, security, and privacy to agricultural data.
 
-### Tools for working with Proprietary  APIs and Data
+### Tools for working with Proprietary APIs and Data
 
 #### [Agworld](https://agworld.co)
 
@@ -64,6 +64,12 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 * [farmOS](https://github.com/farmOS/farmOS) - Web-based farm record keeping application. Built with Drupal and PHP
 * [Ekylibre](https://github.com/ekylibre/ekylibre) - Farm management information system for farmers and small enterprises. Built with Ruby on Rails and PostgreSQL/PostGIS
 * [Tania](https://github.com/Tanibox/tania-core) - Free and open source farming management system for everyone. Built with Go and Vue
+
+## Geospatial and GIS
+
+### Shapefiles
+* [pyshp](https://github.com/GeospatialPython/pyshp) - Python Shapefile Library (pyshp) reads and writes ESRI Shapefiles in pure Python
+* [rgeo-shapefile](https://github.com/rgeo/rgeo-shapefile) - RGeo::Shapefile is an optional module for RGeo for reading geospatial data from ESRI shapefiles in Ruby.
 
 ## IoT, Automation and Robotics
 
