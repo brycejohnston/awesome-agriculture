@@ -2,6 +2,23 @@
 
 A curated list of awesome open source and/or free tools, software and APIs related to Agriculture. Also includes open source API clients and tools to work with proprietary APIs and data.
 
+Contributions welcome! Please follow the [Contributing Guidelines](https://github.com/beaorn/awesome-agriculture/blob/master/contributing.md).
+
+
+**Table Of Contents:**
+
+- [Climate, Environment and Weather](#climate-environment-and-weather)
+- [Crop Modeling, Phenotyping, and Pathology](#crop-modeling-phenotyping-and-pathology)
+- [Datasets, Machine Learning and AI](#datasets-machine-learning-and-ai)
+- [Data Standardization, Interoperability and APIs](#data-standardization-interoperability-and-apis)
+- [Farm Management Systems and Record Keeping](#farm-management-systems-and-record-keeping)
+- [Geospatial and GIS](#geospatial-and-gis)
+- [IoT, Automation and Robotics](#iot-automation-and-robotics)
+- [Knowledgebases and Learning Resources](#knowledgebases-and-learning-resources)
+- [Remote Sensing and Imagery](#remote-sensing-and-imagery)
+
+----
+
 ## Climate, Environment and Weather
 
 * [agroclimatology](https://github.com/agrideveloper/agroclimatology) - Ruby client for interacting with the NASA (POWER) Agroclimatology Web Resource
@@ -67,7 +84,13 @@ A curated list of awesome open source and/or free tools, software and APIs relat
 
 ## Geospatial and GIS
 
+### GIS Platforms
+
+* [QGIS](https://qgis.org) - QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)
+
+
 ### Shapefiles
+
 * [pyshp](https://github.com/GeospatialPython/pyshp) - Python Shapefile Library (pyshp) reads and writes ESRI Shapefiles in pure Python
 * [rgeo-shapefile](https://github.com/rgeo/rgeo-shapefile) - RGeo::Shapefile is an optional module for RGeo for reading geospatial data from ESRI shapefiles in Ruby.
 
