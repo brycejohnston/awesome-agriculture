@@ -14,7 +14,7 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 - [Data Standardization, Interoperability and APIs](#data-standardization-interoperability-and-apis)
 - [Farm Management Systems and Record Keeping](#farm-management-systems-and-record-keeping)
 - [Geospatial and GIS](#geospatial-and-gis)
-- [IoT, Automation and Robotics](#iot-automation-and-robotics)
+- [IoT, Hardware, Automation and Robotics](#iot-hardware-automation-and-robotics)
 - [Knowledgebases and Learning Resources](#knowledgebases-and-learning-resources)
 - [Remote Sensing and Imagery](#remote-sensing-and-imagery)
 
@@ -84,7 +84,7 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 
 ## Farm Management Systems and Record Keeping
 
-* [AgroSense](https://bitbucket.org/corizon/agrosense) - Free and open source farm management suite built with Java.
+* [AgroSense](https://bitbucket.org/corizon/agrosense) - Free and open source farm management suite built with Java
 * [farmOS](https://github.com/farmOS/farmOS) - Web-based farm record keeping application. Built with Drupal and PHP
 * [Ekylibre](https://github.com/ekylibre/ekylibre) - Farm management information system for farmers and small enterprises. Built with Ruby on Rails and PostgreSQL/PostGIS
 * [Tania](https://github.com/Tanibox/tania-core) - Free and open source farming management system for everyone. Built with Go and Vue
@@ -99,12 +99,13 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 ### Shapefiles
 
 * [pyshp](https://github.com/GeospatialPython/pyshp) - Python Shapefile Library (pyshp) reads and writes ESRI Shapefiles in pure Python
-* [rgeo-shapefile](https://github.com/rgeo/rgeo-shapefile) - RGeo::Shapefile is an optional module for RGeo for reading geospatial data from ESRI shapefiles in Ruby.
+* [rgeo-shapefile](https://github.com/rgeo/rgeo-shapefile) - RGeo::Shapefile is an optional module for RGeo for reading geospatial data from ESRI shapefiles in Ruby
 
-## IoT, Automation and Robotics
+## IoT, Hardware, Automation and Robotics
 
 * [FarmBot](https://github.com/farmbot) -  FarmBot is an open source precision agriculture CNC farming project consisting of a Cartesian coordinate robot farming machine, software and documentation including a farming data repository
 * [MIT Open Agriculture Initiative](https://github.com/openaginitiative) -  Open Source ecosystem of technologies that enable and promote transparency, networked experimentation, education, and hyper-local production
+* [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS) - Ag Precision Mapping and Section Control software
 
 ## Knowledgebases and Learning Resources
 
