@@ -7,6 +7,7 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 
 **Table Of Contents:**
 
+- [Calculators](#calculators)
 - [Climate, Environment and Weather](#climate-environment-and-weather)
 - [Crop Modeling, Phenotyping, and Pathology](#crop-modeling-phenotyping-and-pathology)
 - [Datasets, Machine Learning and AI](#datasets-machine-learning-and-ai)
@@ -18,6 +19,10 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 - [Remote Sensing and Imagery](#remote-sensing-and-imagery)
 
 ----
+
+## Calculators
+
+* [farm-calculators](https://github.com/agrideveloper/farm-calculators) - WordPress plugin for calculating various farming and crop related information, such as crop populations, yield estimates, and harvest losses
 
 ## Climate, Environment and Weather
 
@@ -97,6 +102,7 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 
 ## IoT, Automation and Robotics
 
+* [FarmBot](https://github.com/farmbot) -  FarmBot is an open source precision agriculture CNC farming project consisting of a Cartesian coordinate robot farming machine, software and documentation including a farming data repository
 * [MIT Open Agriculture Initiative](https://github.com/openaginitiative) -  Open Source ecosystem of technologies that enable and promote transparency, networked experimentation, education, and hyper-local production
 
 ## Knowledgebases and Learning Resources
