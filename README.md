@@ -84,6 +84,7 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 
 ## Farm Management Systems and Record Keeping
 
+* [AgroSense](https://bitbucket.org/corizon/agrosense) - Free and open source farm management suite built with Java.
 * [farmOS](https://github.com/farmOS/farmOS) - Web-based farm record keeping application. Built with Drupal and PHP
 * [Ekylibre](https://github.com/ekylibre/ekylibre) - Farm management information system for farmers and small enterprises. Built with Ruby on Rails and PostgreSQL/PostGIS
 * [Tania](https://github.com/Tanibox/tania-core) - Free and open source farming management system for everyone. Built with Go and Vue
