@@ -22,13 +22,13 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 
 ## Calculators
 
-* [farm-calculators](https://github.com/agrideveloper/farm-calculators) - WordPress plugin for calculating various farming and crop related information, such as crop populations, yield estimates, and harvest losses
+* [farm-calculators](https://github.com/beaorn/farm-calculators) - WordPress plugin for calculating various farming and crop related information, such as crop populations, yield estimates, and harvest losses
 
 ## Climate, Environment and Weather
 
-* [agroclimatology](https://github.com/agrideveloper/agroclimatology) - Ruby client for interacting with the NASA (POWER) Agroclimatology Web Resource
+* [agroclimatology](https://github.com/beaorn/agroclimatology) - Ruby client for interacting with the NASA (POWER) Agroclimatology Web Resource
 * [bomrang](https://github.com/ropensci/bomrang) - Australian Government Bureau of Meteorology Data From R
-* [evapotranspiration](https://github.com/agrideveloper/evapotranspiration) - Ruby library for calculating reference crop evapotranspiration (ETo)
+* [evapotranspiration](https://github.com/beaorn/evapotranspiration) - Ruby library for calculating reference crop evapotranspiration (ETo)
 * [frostline](https://github.com/waldoj/frostline) - A dataset, API, and parser for USDA plant hardiness zones - Built with Python
 * [GSODR](https://github.com/ropensci/GSODR) - Global Summary Daily Weather Data in R
 * [iem](https://github.com/akrherz/iem) - Code that makes the Iowa Environmental Mesonet run
@@ -61,7 +61,7 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 
 #### [agX Platform](http://www.agxplatform.com)
 
-* [agx-ruby](https://github.com/agrideveloper/agx-ruby) - Ruby client for SST Software's agX Platform APIs
+* [agx-ruby](https://github.com/beaorn/agx-ruby) - Ruby client for SST Software's agX Platform APIs
 
 #### [aWhere](http://developer.awhere.com)
 
