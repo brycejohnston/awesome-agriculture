@@ -50,15 +50,12 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 ## Data Standardization, Interoperability and APIs
 
 * [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners.
-* [Open Ag Data Alliance](https://github.com/oada) - OADA is an open project designed to bring interoperability, security, and privacy to agricultural data.
-
-### Tools for working with Proprietary APIs and Data
-
 * [agworld_api_client](https://github.com/agworld/agworld_api_client) - Example Agworld API Ruby client library that is compliant with specification defined by jsonapi.org.
 * [agx-ruby](https://github.com/beaorn/agx-ruby) - Ruby client for SST Software's agX platform APIs.
 * [API-Code-Samples](https://github.com/aWhereAPI/API-Code-Samples) - aWhere's API platform code samples.
 * [ClearAg-API-Examples](https://github.com/IterisClearAg/ClearAg-API-Examples) - A collection of code examples using the ClearAg APIs.
 * [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing.
+* [Open Ag Data Alliance](https://github.com/oada) - OADA is an open project designed to bring interoperability, security, and privacy to agricultural data.
 * [MyJohnDeereAPI-OAuth-CS-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-CS-Client) - C# MyJohnDeere API client implementation.
 * [MyJohnDeereAPI-OAuth-Java-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Java-Client) - Java MyJohnDeere API client implementation.
 * [MyJohnDeereAPI-OAuth-NodeJS-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-NodeJS-Client) - Node.js MyJohnDeere API client implementation.
@@ -79,7 +76,6 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 ### GIS Platforms
 
 * [QGIS](https://qgis.org) - QGIS is a free, open source, cross platform (lin/win/mac) geographical information system.
-
 
 ### Shapefiles
 
