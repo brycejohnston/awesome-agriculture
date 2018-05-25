@@ -1,6 +1,6 @@
 # Awesome Agriculture [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of open source and/or free tools, software and APIs related to Agriculture.
+A curated list of awesome open source tools, software and APIs related to Agriculture.
 
 ### Contributions
 
