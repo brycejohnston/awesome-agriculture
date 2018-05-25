@@ -2,8 +2,6 @@
 
 A curated list of awesome open source tools, software and APIs related to Agriculture.
 
-### Contributions
-
 Contributions welcome! Please follow the [Contributing Guidelines](https://github.com/beaorn/awesome-agriculture/blob/master/contributing.md).
 
 ### Contents
