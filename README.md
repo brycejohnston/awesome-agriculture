@@ -54,24 +54,10 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 
 ### Tools for working with Proprietary APIs and Data
 
-#### [Agworld](https://agworld.co)
-
 * [agworld_api_client](https://github.com/agworld/agworld_api_client) - Example Agworld API Ruby client library that is compliant with specification defined by jsonapi.org.
-
-#### [agX Platform](http://www.agxplatform.com)
-
 * [agx-ruby](https://github.com/beaorn/agx-ruby) - Ruby client for SST Software's agX platform APIs.
-
-#### [aWhere](http://developer.awhere.com)
-
-* [API-Code-Samples](https://github.com/aWhereAPI/API-Code-Samples) - Get jumpstarted with aWhere's API platforms using these code samples.
-
-#### [Iteris ClearAg](https://docs.clearag.com)
-
+* [API-Code-Samples](https://github.com/aWhereAPI/API-Code-Samples) - aWhere's API platform code samples.
 * [ClearAg-API-Examples](https://github.com/IterisClearAg/ClearAg-API-Examples) - A collection of code examples using the ClearAg APIs.
-
-#### [John Deere](https://developer.deere.com)
-
 * [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing.
 * [MyJohnDeereAPI-OAuth-CS-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-CS-Client) - C# MyJohnDeere API client implementation.
 * [MyJohnDeereAPI-OAuth-Java-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Java-Client) - Java MyJohnDeere API client implementation.
