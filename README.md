@@ -1,11 +1,12 @@
 # Awesome Agriculture [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome open source and/or free tools, software and APIs related to Agriculture. Also includes open source API clients and tools to work with proprietary APIs and data.
+A curated list of open source and/or free tools, software and APIs related to Agriculture.
+
+### Contributions
 
 Contributions welcome! Please follow the [Contributing Guidelines](https://github.com/beaorn/awesome-agriculture/blob/master/contributing.md).
 
-
-**Contents:**
+### Contents
 
 - [Calculators](#calculators)
 - [Climate, Environment and Weather](#climate-environment-and-weather)
@@ -17,8 +18,6 @@ Contributions welcome! Please follow the [Contributing Guidelines](https://githu
 - [IoT, Hardware, Automation and Robotics](#iot-hardware-automation-and-robotics)
 - [Knowledgebases and Learning Resources](#knowledgebases-and-learning-resources)
 - [Remote Sensing and Imagery](#remote-sensing-and-imagery)
-
-----
 
 ## Calculators
 
