@@ -39,7 +39,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 ## Datasets, Machine Learning and AI
 
-* [agridat](https://github.com/kwstat/agridat) - R package providing an extensive collection of datasets from agricultural experiments
+* [agridat](https://github.com/kwstat/agridat) - R package providing an extensive collection of datasets from agricultural experiments.
 * [Ag-Analytics](https://github.com/woodardjoshua/Ag-Analytics) - Ag-Analtyics is a open data/open source data warehouse.
 * [Crop Yield Prediction](https://github.com/JiaxuanYou/crop_yield_prediction) - Deep gaussian process for crop yield prediction based on remote sensing data.
 * [CWFID](https://github.com/cwfid/dataset) - Dataset comprising field images, vegetation segmentation masks and crop/weed plant type annotations.
