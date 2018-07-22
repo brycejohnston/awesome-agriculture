@@ -49,7 +49,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 * [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners.
 * [agworld_api_client](https://github.com/agworld/agworld_api_client) - Example Agworld API Ruby client library that is compliant with specification defined by jsonapi.org.
-* [agx-ruby](https://github.com/beaorn/agx-ruby) - Ruby client for SST Software's agX platform APIs.
+* [agx-ruby](https://github.com/beaorn/agx-ruby) - Ruby client for Proagrica's agX platform APIs.
 * [API-Code-Samples](https://github.com/aWhereAPI/API-Code-Samples) - aWhere's API platform code samples.
 * [ClearAg-API-Examples](https://github.com/IterisClearAg/ClearAg-API-Examples) - A collection of code examples using the ClearAg APIs.
 * [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing.
