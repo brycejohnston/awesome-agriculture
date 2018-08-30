@@ -85,6 +85,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 * [FarmBot](https://github.com/farmbot) -  Open source precision agriculture CNC farming project.
 * [MIT Open Agriculture Initiative](https://github.com/openaginitiative) -  Open Source ecosystem of technologies that enable and promote transparency, networked experimentation, education, and hyper-local production.
 * [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS) - Ag precision mapping and section control software.
+* [OpenMinder](https://github.com/autogrow/openminder) - Open Source Rootzone Monitoring, API and open source hat for the RaspberryPi.
 
 ## Knowledgebases and Learning Resources
 
