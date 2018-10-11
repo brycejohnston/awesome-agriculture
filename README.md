@@ -75,6 +75,10 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 * [QGIS](https://qgis.org) - QGIS is a free, open source, cross platform (lin/win/mac) geographical information system.
 
+### GIS Tools Summary
+
+* [awesome-gis](https://github.com/sshuair/awesome-gis) - awesome-gis is collecting abundant GIS related sources.
+
 ### Shapefiles
 
 * [pyshp](https://github.com/GeospatialPython/pyshp) - Reads and writes ESRI Shapefiles in pure Python.
