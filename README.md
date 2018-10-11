@@ -71,13 +71,13 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 ## Geospatial and GIS
 
+### GIS Resources
+
+* [awesome-gis](https://github.com/sshuair/awesome-gis) - Awesome GIS is a list collecting abundant GIS related sources.
+
 ### GIS Platforms
 
 * [QGIS](https://qgis.org) - QGIS is a free, open source, cross platform (lin/win/mac) geographical information system.
-
-### GIS Tools Summary
-
-* [awesome-gis](https://github.com/sshuair/awesome-gis) - awesome-gis is collecting abundant GIS related sources.
 
 ### Shapefiles
 
