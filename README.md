@@ -73,7 +73,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 ### GIS Resources
 
-* [awesome-gis](https://github.com/sshuair/awesome-gis) - Awesome GIS is a list collecting abundant GIS related sources.
+* [Awesome GIS](https://github.com/sshuair/awesome-gis) - Awesome GIS is a list collecting abundant GIS related sources.
 
 ### GIS Platforms
 
@@ -99,3 +99,4 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 * [Raster Vision](https://github.com/azavea/raster-vision) - Deep learning for aerial/satellite imagery.
 * [Sen2Agri](https://github.com/Sen2Agri/Sen2Agri-System) - Software system processing high resolution satellite images for agricultural purposes.
+* [Awesome Sentinel](https://github.com/Fernerkundung/awesome-sentinel) - A curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
