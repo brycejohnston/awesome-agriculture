@@ -44,6 +44,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 * [Crop Yield Prediction](https://github.com/JiaxuanYou/crop_yield_prediction) - Deep gaussian process for crop yield prediction based on remote sensing data.
 * [CWFID](https://github.com/cwfid/dataset) - Dataset comprising field images, vegetation segmentation masks and crop/weed plant type annotations.
 * [PlantCV](https://github.com/danforthcenter/plantcv) - Plant phenotyping using computer vision.
+* [Deep Learning for Biologists with Keras](https://github.com/totti0223/deep_learning_for_biologists_with_keras) - Tutorials for deep learning based analysis (mainly) on biological relavent themes.
 
 ## Data Standardization, Interoperability and APIs
 
