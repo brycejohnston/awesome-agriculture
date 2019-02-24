@@ -95,6 +95,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Knowledgebases and Learning Resources
 
 * [OpenFarm](https://github.com/openfarmcc/OpenFarm) - A free and open database for farming and gardening knowledge built with Ruby on Rails.
+* [Harvest Helper](https://github.com/damwhit/harvest_helper) -  Provides growing, harvesting and recipe information for the 45 plants in the database as well as a JSON API.
 
 ## Remote Sensing and Imagery
 
