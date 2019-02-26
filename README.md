@@ -2,6 +2,8 @@
 
 > A curated list of awesome open source software for Agriculture.
 
+[Agriculture](https://en.wikipedia.org/wiki/Agriculture) is the science and art of cultivating plants and livestock for food and materials.
+
 Contributions welcome! Please follow the [contributing guidelines](https://github.com/beaorn/awesome-agriculture/blob/master/contributing.md).
 
 ## Contents
