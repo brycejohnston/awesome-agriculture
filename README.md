@@ -1,6 +1,6 @@
 # Awesome Agriculture [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome open source software for Agriculture.
+> A curated list of awesome open source technology for agriculture, farming, and gardening.
 
 [Agriculture](https://en.wikipedia.org/wiki/Agriculture) is the science and art of cultivating plants and livestock for food and materials.
 
