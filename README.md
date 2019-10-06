@@ -90,6 +90,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## IoT, Hardware, Automation and Robotics
 
 - [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS) - Ag precision mapping and section control software.
+- [Augean Robotics](http://www.augeanrobotics.com/) - Autonomous, collaborative, and customizable robots to aid farmers by automating tasks.
 - [DRO-Matic](https://github.com/drolsen/DRO-Matic) - Fully Automated Hydroponic OS for DIY DRO-Matic cabinets - Nutrient dosing, irrigation, topoffs, timers, EC & pH drift fixing.
 - [FarmBot](https://github.com/farmbot) -  Open source precision agriculture CNC farming project.
 - [Open Agriculture Foundation](https://github.com/OpenAgricultureFoundation) -  Open Source ecosystem of technologies that enable and promote transparency, networked experimentation, education, and hyper-local production.
