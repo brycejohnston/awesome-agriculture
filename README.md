@@ -94,6 +94,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [FarmBot](https://github.com/farmbot) -  Open source precision agriculture CNC farming project.
 - [Open Agriculture Foundation](https://github.com/OpenAgricultureFoundation) -  Open Source ecosystem of technologies that enable and promote transparency, networked experimentation, education, and hyper-local production.
 - [OpenMinder](https://github.com/autogrow/openminder) - Open Source Rootzone Monitoring, API and open source hat for the RaspberryPi.
+- [ROS Agriculture](http://rosagriculture.org/) - Open Source community focusing on using Robot Operating System to empower farmers with robotics tools. 
 
 ## Knowledgebases and Learning Resources
 
