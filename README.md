@@ -51,6 +51,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Data Standardization, Interoperability and APIs
 
 - [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners.
+- [Agstack](https://agstack.org) - Open-Source Digital Infrastructure for the Agriculture Ecosystem
 - [agworld_api_client](https://github.com/agworld/agworld_api_client) - Example Agworld API Ruby client library that is compliant with specification defined by jsonapi.org.
 - [agx-ruby](https://github.com/brycejohnston/agx-ruby) - Ruby client for Proagrica's agX platform APIs.
 - [API-Code-Samples](https://github.com/aWhereAPI/API-Code-Samples) - Contains aWhere's API platform code samples.
