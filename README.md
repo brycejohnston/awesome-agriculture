@@ -90,15 +90,25 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [pyshp](https://github.com/GeospatialPython/pyshp) - Reads and writes ESRI Shapefiles in pure Python.
 - [rgeo-shapefile](https://github.com/rgeo/rgeo-shapefile) - RGeo Shapefile is an optional module for RGeo for reading geospatial data from ESRI shapefiles in Ruby.
 
-## IoT, Hardware, Automation and Robotics
+## Automation and Robotics
+
+- [Earth Rover](https://github.com/earthrover) Ag AGV ROS1) precision farming rover, 
+- [Acorn Rover](https://github.com/Twisted-Fields) precision farming rover, Odrive, Python.
+- [Romi project](https://media.romi-project.eu/documents/index.html) Europe-funded research project 
+- [Weedinator](https://hackaday.io/project/53896-weedinator-2019) Line following /weeding robot
+- [ROS Agriculture](http://rosagriculture.org/) - Open Source community focusing on using Robot Operating System to empower farmers with robotics tools. 
+- [FarmBot](https://github.com/farmbot) -  Open source precision gardening project.
+
+
+
+
+## IoT, Hardware
 
 - [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS) - Ag precision mapping and section control software.
 - [DRO-Matic](https://github.com/drolsen/DRO-Matic) - Fully Automated Hydroponic OS for DIY DRO-Matic cabinets - Nutrient dosing, irrigation, topoffs, timers, EC & pH drift fixing.
-- [FarmBot](https://github.com/farmbot) -  Open source precision agriculture CNC farming project.
 - [Farm Hack](https://farmhack.org/tools) - Worldwide community of farmers that build and modify our own tools.
 - [Open Agriculture Foundation](https://github.com/OpenAgricultureFoundation) -  Open Source ecosystem of technologies that enable and promote transparency, networked experimentation, education, and hyper-local production.
 - [OpenMinder](https://github.com/autogrow/openminder) - Open Source Rootzone Monitoring, API and open source hat for the RaspberryPi.
-- [ROS Agriculture](http://rosagriculture.org/) - Open Source community focusing on using Robot Operating System to empower farmers with robotics tools. 
 
 ## Knowledgebases and Learning Resources
 
