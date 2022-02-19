@@ -15,7 +15,8 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [Data Standardization, Interoperability and APIs](#data-standardization-interoperability-and-apis)
 - [Farm Management Systems and Record Keeping](#farm-management-systems-and-record-keeping)
 - [Geospatial and GIS](#geospatial-and-gis)
-- [IoT, Hardware, Automation and Robotics](#iot-hardware-automation-and-robotics)
+- [Automation and Robotics] #automation-and-robotics
+- [IoT, Hardware](#iot-hardware)
 - [Knowledgebases and Learning Resources](#knowledgebases-and-learning-resources)
 - [Remote Sensing and Imagery](#remote-sensing-and-imagery)
 
@@ -94,13 +95,11 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 - [Earth Rover](https://github.com/earthrover) Ag AGV ROS1) precision farming rover, 
 - [Acorn Rover](https://github.com/Twisted-Fields) precision farming rover, Odrive, Python.
+- [EcoTerra Bot](https://ecoterrabot.com/) Delta & Rover
 - [Romi project](https://media.romi-project.eu/documents/index.html) Europe-funded research project 
 - [Weedinator](https://hackaday.io/project/53896-weedinator-2019) Line following /weeding robot
 - [ROS Agriculture](http://rosagriculture.org/) - Open Source community focusing on using Robot Operating System to empower farmers with robotics tools. 
 - [FarmBot](https://github.com/farmbot) -  Open source precision gardening project.
-
-
-
 
 ## IoT, Hardware
 
