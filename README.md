@@ -11,7 +11,8 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [Calculators](#calculators)
 - [Climate, Environment and Weather](#climate-environment-and-weather)
 - [Crop Modeling, Phenotyping, and Pathology](#crop-modeling-phenotyping-and-pathology)
-- [Datasets, Machine Learning and AI](#datasets-machine-learning-and-ai)
+- [Datasets](#datasets)
+- [Machine Learning and AI](#machine-learning-and-ai)
 - [Data Standardization, Interoperability and APIs](#data-standardization-interoperability-and-apis)
 - [Farm Management Systems and Record Keeping](#farm-management-systems-and-record-keeping)
 - [Geospatial and GIS](#geospatial-and-gis)
@@ -40,17 +41,20 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 - [Open Plant Pathology](https://www.openplantpathology.org/) - A community that values open data and computational tools for advancing epidemiology and pathogen population biology and ecology.
 
-## Datasets, Machine Learning and AI
+## Datasets, 
+- [Growstuff](https://www.growstuff.org/crops) Record keeping & crop database, nice API
+- [CWFID](https://github.com/cwfid/dataset) - Dataset comprising field images, vegetation segmentation masks and crop/weed plant type annotations.
+- [TERRA REF](https://terraref.org) -> 1PB public domain high resolution sensor data from sorghum breeding trials ([data publication](https://doi.org/10.5061/dryad.4b8gtht99) with large files available on [globus.org at ncsa#terra-public](https://app.globus.org/file-manager?origin_id=e8feaff4-96cd-11ea-bf90-0e6cccbb0103&origin_path=%2F))
 
+## Machine Learning and AI
 - [agridat](https://github.com/kwstat/agridat) - R package providing an extensive collection of datasets from agricultural experiments.
 - [Crop Yield Prediction](https://github.com/JiaxuanYou/crop_yield_prediction) - Deep gaussian process for crop yield prediction based on remote sensing data.
-- [CWFID](https://github.com/cwfid/dataset) - Dataset comprising field images, vegetation segmentation masks and crop/weed plant type annotations.
 - [Deep Learning for Biologists with Keras](https://github.com/totti0223/deep_learning_for_biologists_with_keras) - Tutorials for deep learning based analysis (mainly) on biological relavent themes.
 - [PlantCV](https://github.com/danforthcenter/plantcv) - Plant phenotyping software using computer vision.
-- [TERRA REF](https://terraref.org) -> 1PB public domain high resolution sensor data from sorghum breeding trials ([data publication](https://doi.org/10.5061/dryad.4b8gtht99) with large files available on [globus.org at ncsa#terra-public](https://app.globus.org/file-manager?origin_id=e8feaff4-96cd-11ea-bf90-0e6cccbb0103&origin_path=%2F))
 
 ## Data Standardization, Interoperability and APIs
 
+- [OpenTeam](https://openteam.community/) - Open Technology Ecosystem for Agricultural Management
 - [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners.
 - [Agstack](https://agstack.org) - Open-Source Digital Infrastructure for the Agriculture Ecosystem
 - [agworld_api_client](https://github.com/agworld/agworld_api_client) - Example Agworld API Ruby client library that is compliant with specification defined by jsonapi.org.
