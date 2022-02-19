@@ -15,7 +15,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [Data Standardization, Interoperability and APIs](#data-standardization-interoperability-and-apis)
 - [Farm Management Systems and Record Keeping](#farm-management-systems-and-record-keeping)
 - [Geospatial and GIS](#geospatial-and-gis)
-- [Automation and Robotics] #automation-and-robotics
+- [Automation and Robotics](#automation-and-robotics)
 - [IoT, Hardware](#iot-hardware)
 - [Knowledgebases and Learning Resources](#knowledgebases-and-learning-resources)
 - [Remote Sensing and Imagery](#remote-sensing-and-imagery)
