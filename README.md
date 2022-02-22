@@ -54,7 +54,6 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 ## Data Standardization, Interoperability and APIs
 
-- [OpenTeam](https://openteam.community/) - Open Technology Ecosystem for Agricultural Management
 - [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners.
 - [Agstack](https://agstack.org) - Open-Source Digital Infrastructure for the Agriculture Ecosystem
 - [agworld_api_client](https://github.com/agworld/agworld_api_client) - Example Agworld API Ruby client library that is compliant with specification defined by jsonapi.org.
@@ -69,6 +68,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [MyJohnDeereAPI-OAuth-Python-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Python-Client) - Python MyJohnDeere API client implementation.
 - [MyJohnDeereAPI-OAuth-Python3-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Python3-Client) - Python3 MyJohnDeere API client implementation.
 - [MyJohnDeereAPI-OAuth-Ruby-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Ruby-Client) - Ruby MyJohnDeere API client implementation.
+- [OpenTeam](https://openteam.community/) - Open Technology Ecosystem for Agricultural Management
 - [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing.
 - [SencropAPI-JavaScript-Client](https://github.com/sencrop/sencrop-js-api-client) - Sencrop API Javascript client implementation. Read and manage Sencrop weather stations.
 
@@ -97,13 +97,14 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 ## Automation and Robotics
 
-- [Earth Rover](https://github.com/earthrover) Ag AGV ROS1) precision farming rover, 
+- [Ant Robotics](https://antrobotics.de/) development from Ecoterra bot
 - [Acorn Rover](https://github.com/Twisted-Fields) precision farming rover, Odrive, Python.
+- [Earth Rover](https://github.com/earthrover) Ag AGV ROS1) precision farming rover, 
 - [EcoTerra Bot](https://ecoterrabot.com/) Delta & Rover
-- [Romi project](https://media.romi-project.eu/documents/index.html) Europe-funded research project 
-- [Weedinator](https://hackaday.io/project/53896-weedinator-2019) Line following /weeding robot
-- [ROS Agriculture](http://rosagriculture.org/) - Open Source community focusing on using Robot Operating System to empower farmers with robotics tools. 
 - [FarmBot](https://github.com/farmbot) -  Open source precision gardening project.
+- [Romi project](https://media.romi-project.eu/documents/index.html) Europe-funded research project 
+- [ROS Agriculture](http://rosagriculture.org/) - Open Source community focusing on using Robot Operating System to empower farmers with robotics tools. 
+- [Weedinator](https://hackaday.io/project/53896-weedinator-2019) Line following /weeding robot
 
 ## IoT, Hardware
 
