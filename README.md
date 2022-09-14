@@ -28,6 +28,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [Earth Rover](https://github.com/earthrover) Ag AGV ROS1) precision farming rover, 
 - [EcoTerra Bot](https://ecoterrabot.com/) Delta & Rover
 - [FarmBot](https://github.com/farmbot) -  Open source precision gardening project.
+- [Fields2Cover](https://github.com/Fields2Cover/Fields2Cover) - Robust and efficient coverage paths for autonomous agricultural vehicles.
 - [Romi project](https://media.romi-project.eu/documents/index.html) Europe-funded research project 
 - [ROS Agriculture](http://rosagriculture.org/) - Open Source community focusing on using Robot Operating System to empower farmers with robotics tools. 
 - [Weedinator](https://hackaday.io/project/53896-weedinator-2019) Line following /weeding robot
