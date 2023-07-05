@@ -40,7 +40,6 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Climate, Environment and Weather
 
 - [agroclimatology](https://github.com/brycejohnston/agroclimatology) - Ruby client for interacting with the NASA (POWER) Agroclimatology Web Resource.
-- [bomrang](https://github.com/ropensci/bomrang) - Australian Government Bureau of Meteorology Data from R.
 - [evapotranspiration](https://github.com/brycejohnston/evapotranspiration) - Ruby library for calculating reference crop evapotranspiration (ETo).
 - [frostline](https://github.com/waldoj/frostline) - A dataset, API, and python parser for USDA plant hardiness zones.
 - [GSODR](https://github.com/ropensci/GSODR) - Global summary daily weather data in R.
@@ -53,7 +52,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 - [Open Plant Pathology](https://www.openplantpathology.org/) - A community that values open data and computational tools for advancing epidemiology and pathogen population biology and ecology.
 
-## Datasets, 
+## Datasets
 - [Growstuff](https://www.growstuff.org/crops) Record keeping & crop database, nice API
 - [CWFID](https://github.com/cwfid/dataset) - Dataset comprising field images, vegetation segmentation masks and crop/weed plant type annotations.
 - [TERRA REF](https://terraref.org) -> 1PB public domain high resolution sensor data from sorghum breeding trials ([data publication](https://doi.org/10.5061/dryad.4b8gtht99) with large files available on [globus.org at ncsa#terra-public](https://app.globus.org/file-manager?origin_id=e8feaff4-96cd-11ea-bf90-0e6cccbb0103&origin_path=%2F))
@@ -61,19 +60,15 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Data Standardization, Interoperability and APIs
 
 - [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners.
-- [Agstack](https://agstack.org) - Open-Source Digital Infrastructure for the Agriculture Ecosystem
-- [agworld_api_client](https://github.com/agworld/agworld_api_client) - Example Agworld API Ruby client library that is compliant with specification defined by jsonapi.org.
+- [Agstack](https://github.com/agstack) - Open-Source Digital Infrastructure for the Agriculture Ecosystem.
 - [agx-ruby](https://github.com/brycejohnston/agx-ruby) - Ruby client for Proagrica's agX platform APIs.
 - [API-Code-Samples](https://github.com/aWhereAPI/API-Code-Samples) - Contains aWhere's API platform code samples.
 - [ClearAg-API-Examples](https://github.com/IterisClearAg/ClearAg-API-Examples) - A collection of code examples using the ClearAg APIs.
+- [JDLinkMachineDataAPI-OAuth2-CSharp-Example](https://github.com/JohnDeere/JDLinkMachineDataAPI-OAuth2-CSharp-Example) - CSharp JDLink Machine Data API client example.
 - [Open Ag Data Alliance](https://github.com/oada) - OADA is an open project designed to bring interoperability, security, and privacy to agricultural data.
-- [MyJohnDeereAPI-OAuth-CS-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-CS-Client) - C Sharp MyJohnDeere API client implementation.
-- [MyJohnDeereAPI-OAuth-Java-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Java-Client) - Java MyJohnDeere API client implementation.
-- [MyJohnDeereAPI-OAuth-NodeJS-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-NodeJS-Client) - Node.js MyJohnDeere API client implementation.
-- [MyJohnDeereAPI-OAuth-PHP-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-PHP-Client) - PHP MyJohnDeere API client implementation.
-- [MyJohnDeereAPI-OAuth-Python-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Python-Client) - Python MyJohnDeere API client implementation.
-- [MyJohnDeereAPI-OAuth-Python3-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Python3-Client) - Python3 MyJohnDeere API client implementation.
-- [MyJohnDeereAPI-OAuth-Ruby-Client](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth-Ruby-Client) - Ruby MyJohnDeere API client implementation.
+- [MyJohnDeereAPI-OAuth2-Java-Example](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth2-Java-Example) - Java MyJohnDeere API client example.
+- [MyJohnDeereAPI-OAuth2-NodeJS-Example](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth2-NodeJS-Example) - Node.js MyJohnDeere API client example.
+- [MyJohnDeereAPI-OAuth2-Python-Example](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth2-Python-Example) - Python MyJohnDeere API client example.
 - [OpenTeam](https://openteam.community/) - Open Technology Ecosystem for Agricultural Management
 - [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing.
 - [SencropAPI-JavaScript-Client](https://github.com/sencrop/sencrop-js-api-client) - Sencrop API Javascript client implementation. Read and manage Sencrop weather stations.
@@ -105,9 +100,11 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 - [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS) - Ag precision mapping and section control software.
 - [DRO-Matic](https://github.com/drolsen/DRO-Matic) - Fully Automated Hydroponic OS for DIY DRO-Matic cabinets - Nutrient dosing, irrigation, topoffs, timers, EC & pH drift fixing.
+- [Farm-Data-Relay-System](https://github.com/timmbogner/Farm-Data-Relay-System) - System using ESP-NOW, LoRa, and other protocols to transport sensor data in remote areas without relying on WiFi.
 - [Farm Hack](https://farmhack.org/tools) - Worldwide community of farmers that build and modify our own tools.
 - [Open Agriculture Foundation](https://github.com/OpenAgricultureFoundation) -  Open Source ecosystem of technologies that enable and promote transparency, networked experimentation, education, and hyper-local production.
 - [OpenMinder](https://github.com/autogrow/openminder) - Open Source Rootzone Monitoring, API and open source hat for the RaspberryPi.
+- [OpenWeedLocator](https://github.com/geezacoleman/OpenWeedLocator) - Open Source, low-cost, image-based weed detection device for in-crop and fallow scenarios.
 
 ## Knowledgebases and Learning Resources
 
@@ -115,9 +112,11 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [OpenFarm](https://github.com/openfarmcc/OpenFarm) - A free and open database for farming and gardening knowledge built with Ruby on Rails.
 
 ## Machine Learning and AI
+- [AgML](https://github.com/Project-AgML/AgML) - Centralized framework for agricultural machine learning.
 - [agridat](https://github.com/kwstat/agridat) - R package providing an extensive collection of datasets from agricultural experiments.
 - [Crop Yield Prediction](https://github.com/JiaxuanYou/crop_yield_prediction) - Deep gaussian process for crop yield prediction based on remote sensing data.
 - [Deep Learning for Biologists with Keras](https://github.com/totti0223/deep_learning_for_biologists_with_keras) - Tutorials for deep learning based analysis (mainly) on biological relavent themes.
+- [FarmVibes.AI](https://github.com/microsoft/farmvibes-ai) - Multi-Modal GeoSpatial ML Models for Agriculture and Sustainability.
 - [PlantCV](https://github.com/danforthcenter/plantcv) - Plant phenotyping software using computer vision.
 
 ## Remote Sensing and Imagery
