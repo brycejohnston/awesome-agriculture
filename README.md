@@ -53,11 +53,11 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [Open Plant Pathology](https://www.openplantpathology.org/) - A community that values open data and computational tools for advancing epidemiology and pathogen population biology and ecology.
 
 ## Datasets
-- [Growstuff](https://www.growstuff.org/crops) Record keeping & crop database, nice API
 - [CWFID](https://github.com/cwfid/dataset) - Dataset comprising field images, vegetation segmentation masks and crop/weed plant type annotations.
-- [TERRA REF](https://terraref.org) - 1PB public domain high resolution sensor data from sorghum breeding trials ([data publication](https://doi.org/10.5061/dryad.4b8gtht99) with large files available on [globus.org at ncsa#terra-public](https://app.globus.org/file-manager?origin_id=e8feaff4-96cd-11ea-bf90-0e6cccbb0103&origin_path=%2F))
+- [Growstuff](https://www.growstuff.org/crops) Record keeping & crop database, nice API
 - [PlantVillage](https://www.kaggle.com/datasets/emmarex/plantdisease) - Dataset containing leaf images of healthy and diseased plants, covering 38 disease classes across 14 different crops.
 - [SoybeanYield](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction?tab=readme-ov-file) - A multimodal agricultural dataset for soybean yield forecasting, integrating yield performance, management practices, weather data, and soil parameters. 
+- [TERRA REF](https://terraref.org) - 1PB public domain high resolution sensor data from sorghum breeding trials ([data publication](https://doi.org/10.5061/dryad.4b8gtht99) with large files available on [globus.org at ncsa#terra-public](https://app.globus.org/file-manager?origin_id=e8feaff4-96cd-11ea-bf90-0e6cccbb0103&origin_path=%2F))
 
 ## Data Standardization, Interoperability and APIs
 
