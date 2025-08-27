@@ -101,7 +101,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## IoT, Hardware
 
 - [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS) - Ag precision mapping and section control software.
-- [DRO-Matic](https://github.com/drolsen/DRO-Matic) - Fully Automated Hydroponic OS for DIY DRO-Matic cabinets - Nutrient dosing, irrigation, topoffs, timers, EC & pH drift fixing.
+- [Open hydroponics](https://openhydroponics.com/) - Fully Automated Hydroponic OS 
 - [Farm-Data-Relay-System](https://github.com/timmbogner/Farm-Data-Relay-System) - System using ESP-NOW, LoRa, and other protocols to transport sensor data in remote areas without relying on WiFi.
 - [Farm Hack](https://farmhack.org/tools) - Worldwide community of farmers that build and modify our own tools.
 - [Open Agriculture Foundation](https://github.com/OpenAgricultureFoundation) -  Open Source ecosystem of technologies that enable and promote transparency, networked experimentation, education, and hyper-local production.
