@@ -30,6 +30,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [FarmBot](https://github.com/farmbot) - Open source precision gardening project.
 - [FarmBot-ROS](https://github.com/farmbot-ros/) - Open source farming robot.
 - [Fields2Cover](https://github.com/Fields2Cover/Fields2Cover) - Robust and efficient coverage paths for autonomous agricultural vehicles.
+- [Field Friend](https://github.com/zauberzeug/field_friend) - A Development Platform for Autonomous Weeding. 
 - [Romi project](https://media.romi-project.eu/documents/index.html) - Europe-funded research project 
 - [ROS Agriculture](http://rosagriculture.org/) - Open Source community focusing on using Robot Operating System to empower farmers with robotics tools. 
 - [Weedinator](https://hackaday.io/project/53896-weedinator-2019) - Line following weeding robot
