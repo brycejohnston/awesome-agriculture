@@ -81,6 +81,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [OpenTeam](https://openteam.community/) - Open Technology Ecosystem for Agricultural Management
 - [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing.
 - [SencropAPI-JavaScript-Client](https://github.com/sencrop/sencrop-js-api-client) - Sencrop API Javascript client implementation. Read and manage Sencrop weather stations.
+- [Botanica](https://github.com/Michael-A-Kuykendall/botanica) - Production-ready Rust crate for professional botanical data management with taxonomic hierarchy, cultivation tracking, and Darwin Core compliance.
 
 ## Farm Management Systems and Record Keeping
 
