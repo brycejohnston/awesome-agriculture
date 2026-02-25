@@ -20,6 +20,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [Knowledgebases and Learning Resources](#knowledgebases-and-learning-resources)
 - [Machine Learning and AI](#machine-learning-and-ai)
 - [Remote Sensing and Imagery](#remote-sensing-and-imagery)
+- [Sustainable Food Systems](#sustainable-food-systems)
 
 ## Automation and Robotics
 
@@ -138,6 +139,10 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [Awesome Vegetation Index](https://github.com/px39n/Awesome-Vegetation-Index) - List of reference, applications of common Vegetation Indices for Multi-spectral, hyper-spectral and UAV images.
 - [Raster Vision](https://github.com/azavea/raster-vision) - Deep learning for aerial/satellite imagery.
 - [Sen2Agri](https://github.com/Sen2Agri/Sen2Agri-System) - Software system processing high resolution satellite images for agricultural purposes.
+
+## Sustainable Food Systems
+
+- [Open Food Network](https://github.com/openfoodfoundation/openfoodnetwork) - An online marketplace for local food, connecting farmers and food hubs with consumers and businesses. Built with Ruby on Rails, serving 2,500+ enterprises across 15+ countries.
 
 ## License
 
