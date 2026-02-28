@@ -46,6 +46,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [frostline](https://github.com/waldoj/frostline) - A dataset, API, and python parser for USDA plant hardiness zones.
 - [GSODR](https://github.com/ropensci/GSODR) - Global summary daily weather data in R.
 - [iem](https://github.com/akrherz/iem) - Code that makes the Iowa Environmental Mesonet run.
+- [MySoilType](https://mysoiltype.com/) - USDA soil data lookup tool. Find detailed soil classification, properties, and agricultural suitability information using official USDA soil surveys.
 - [PyETo](https://github.com/woodcrafty/PyETo) - Python package for calculating reference/potential evapotranspiration (ETo).
 - [pyTSEB](https://github.com/hectornieto/pyTSEB) - A python two source energy balance model for estimation of evapotranspiration with remote sensing data.
 - [soilDB](https://github.com/ncss-tech/soilDB) - R library for simplified access to NCSS soil databases.
