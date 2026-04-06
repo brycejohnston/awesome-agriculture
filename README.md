@@ -6,6 +6,7 @@
 
 Contributions welcome! Please follow the [contributing guidelines](https://github.com/beaorn/awesome-agriculture/blob/master/contributing.md).
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for agriculture data workflow orchestration, automated precision farming management, and multi-agent coordination. MIT licensed.
 ## Contents
 
 - [Automation and Robotics](#automation-and-robotics)
