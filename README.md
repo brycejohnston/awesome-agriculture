@@ -38,6 +38,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Calculators
 
 - [farm-calculators](https://github.com/brycejohnston/farm-calculators) - WordPress plugin for calculating various farming and crop related information.
+- [Chicken Egg Colour Calculator](https://eggcalculator.github.io/eggcolourcalculator) - Punnett square calculator predicting chicken egg shell colors based on parent genetics.
 
 ## Climate, Environment and Weather
 
