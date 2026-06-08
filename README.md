@@ -131,6 +131,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [Deep Learning for Biologists with Keras](https://github.com/totti0223/deep_learning_for_biologists_with_keras) - Tutorials for deep learning based analysis (mainly) on biological relavent themes.
 - [FarmVibes.AI](https://github.com/microsoft/farmvibes-ai) - Multi-Modal GeoSpatial ML Models for Agriculture and Sustainability.
 - [PlantCV](https://github.com/danforthcenter/plantcv) - Plant phenotyping software using computer vision.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - MCP server for AI agent trust scoring on Solana. Verify autonomous agricultural AI agent identity before x402 micropayments for satellite data, weather APIs, and soil analytics services.
 
 ## Remote Sensing and Imagery
 
