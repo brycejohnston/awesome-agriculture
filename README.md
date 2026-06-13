@@ -38,6 +38,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Calculators
 
 - [farm-calculators](https://github.com/brycejohnston/farm-calculators) - WordPress plugin for calculating various farming and crop related information.
+- [mycro-grow](https://github.com/SaschaHeyer/mycro-grow) - JavaScript library and CLI for gourmet mushroom cultivation math: substrate hydration, spawn ratio, biological-efficiency yield, and batch economics.
 
 ## Climate, Environment and Weather
 
