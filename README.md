@@ -127,6 +127,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Machine Learning and AI
 - [AgML](https://github.com/Project-AgML/AgML) - Centralized framework for agricultural machine learning.
 - [agridat](https://github.com/kwstat/agridat) - R package providing an extensive collection of datasets from agricultural experiments.
+- [Agriculture & AgTech Research Agent](https://superhighway.walls.sh/guides/agtech-research-agent) - Build a Python agent that researches agriculture markets and AgTech using live web data — USDA crop reports, commodity prices, weather risk, and precision agriculture technology.
 - [Crop Yield Prediction](https://github.com/JiaxuanYou/crop_yield_prediction) - Deep gaussian process for crop yield prediction based on remote sensing data.
 - [Deep Learning for Biologists with Keras](https://github.com/totti0223/deep_learning_for_biologists_with_keras) - Tutorials for deep learning based analysis (mainly) on biological relavent themes.
 - [FarmVibes.AI](https://github.com/microsoft/farmvibes-ai) - Multi-Modal GeoSpatial ML Models for Agriculture and Sustainability.
