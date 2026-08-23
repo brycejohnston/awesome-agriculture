@@ -38,6 +38,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Calculators
 
 - [farm-calculators](https://github.com/brycejohnston/farm-calculators) - WordPress plugin for calculating various farming and crop related information.
+- [yard-material-coverage-data](https://github.com/demi-valerith/yard-material-coverage-data) - Open landscape material coverage, density, and bag conversion data with a reusable calculator component.
 
 ## Climate, Environment and Weather
 
