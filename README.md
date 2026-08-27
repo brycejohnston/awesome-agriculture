@@ -101,6 +101,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ### GIS Platforms
 
 - [QGIS](https://qgis.org) - QGIS is a free, open source, cross platform (lin/win/mac) geographical information system.
+- [AI Segmentation by TerraLab](https://github.com/TerraLabAI/QGIS_AI-Segmentation) - Free QGIS plugin that segments fields, trees, buildings and any object from satellite and drone imagery into vector polygons with one click.
 
 ### Shapefiles
 
