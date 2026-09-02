@@ -37,6 +37,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 ## Calculators
 
+- [Direct Beef Tools](https://github.com/cmhenry79/direct-beef-tools) - Browser-only worksheet for comparing another-sale net value with direct-to-customer beef break-even and target prices.
 - [farm-calculators](https://github.com/brycejohnston/farm-calculators) - WordPress plugin for calculating various farming and crop related information.
 
 ## Climate, Environment and Weather
