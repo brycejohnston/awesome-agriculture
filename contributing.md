@@ -4,7 +4,7 @@ Know another awesome API, project, library, app, or tool that is missing from th
 
 ## Guidelines
 - Add one link per Pull Request.
-- Add the link follow:
+- Use the following link format:
 `- [project-name](http://example.com/) - A short description (Keep descriptions concise).`
 - Add a section if needed.
     - Make sure the section title is **Bold** style.
