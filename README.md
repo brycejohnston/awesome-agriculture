@@ -38,7 +38,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Calculators
 
 - [farm-calculators](https://github.com/brycejohnston/farm-calculators) - WordPress plugin for calculating various farming and crop related information.
-- [CoverCalc Pro](https://covercalcpro.com/) - Browser-based calculators for landscape material quantities, including mulch, soil, pine straw, and potting media.
+- [CoverCalc Pro Landscape Quantity Kit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) - MIT-licensed offline browser checker for landscape volumes and whole-bag counts.
 
 ## Climate, Environment and Weather
 
