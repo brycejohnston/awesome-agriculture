@@ -122,6 +122,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Knowledgebases and Learning Resources
 
 - [Harvest Helper](https://github.com/damwhit/harvest_helper) -  Provides growing, harvesting and recipe information for the 45 plants in the database as well as a JSON API.
+- [CloverAcre](https://cloveracre.com/) - Plain-spoken reference for home canners, backyard chicken keepers, and kitchen gardeners: canning safety, flock care, and seasonal garden guides.
 - [OpenFarm](https://github.com/openfarmcc/OpenFarm) - A free and open database for farming and gardening knowledge built with Ruby on Rails.
 
 ## Machine Learning and AI
