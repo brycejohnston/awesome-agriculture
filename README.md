@@ -38,6 +38,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Calculators
 
 - [farm-calculators](https://github.com/brycejohnston/farm-calculators) - WordPress plugin for calculating various farming and crop related information.
+- [Handy Backyard Mulch Calculator](https://handybackyard.com/mulch-calculator) - Free mulch volume calculator: cubic yards, 2 cu ft bag counts, and coverage depth from Extension guidance.
 
 ## Climate, Environment and Weather
 
