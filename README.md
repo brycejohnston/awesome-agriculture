@@ -46,6 +46,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [frostline](https://github.com/waldoj/frostline) - A dataset, API, and python parser for USDA plant hardiness zones.
 - [GSODR](https://github.com/ropensci/GSODR) - Global summary daily weather data in R.
 - [iem](https://github.com/akrherz/iem) - Code that makes the Iowa Environmental Mesonet run.
+- [massachusetts-frost-dates-zones](https://github.com/sackio/massachusetts-frost-dates-zones) - CSV dataset of frost dates for 50 Massachusetts NOAA stations (1991-2020 normals) and USDA hardiness zones for 508 towns, with a [town lookup](https://katamacreek.com/tools/massachusetts-town-frost-zone/).
 - [PyETo](https://github.com/woodcrafty/PyETo) - Python package for calculating reference/potential evapotranspiration (ETo).
 - [pyTSEB](https://github.com/hectornieto/pyTSEB) - A python two source energy balance model for estimation of evapotranspiration with remote sensing data.
 - [soilDB](https://github.com/ncss-tech/soilDB) - R library for simplified access to NCSS soil databases.
