@@ -38,6 +38,10 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Calculators
 
 - [farm-calculators](https://github.com/brycejohnston/farm-calculators) - WordPress plugin for calculating various farming and crop related information.
+- [CoverCalc Pro Landscape Quantity Kit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) - MIT-licensed offline browser checker for landscape volumes and whole-bag counts.
+- [yard-material-coverage-data](https://github.com/demi-valerith/yard-material-coverage-data) - Open landscape material coverage, density, and bag conversion data with a reusable calculator component.
+- [mycro-grow](https://github.com/SaschaHeyer/mycro-grow) - JavaScript library and CLI for gourmet mushroom cultivation math: substrate hydration, spawn ratio, biological-efficiency yield, and batch economics.
+- [flower-farm-math](https://github.com/SaschaHeyer/flower-farm-math) - Zero-dependency JavaScript library for flower farm and farmer-florist math: wedding stem counts, costs-up CSA bouquet pricing, and a bloom-to-sales weekly reconciliation of stems cut vs. promised by variety.
 
 ## Climate, Environment and Weather
 
@@ -60,15 +64,19 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [CropHarvest](https://github.com/nasaharvest/cropharvest) - Open source remote sensing dataset for global crop type mapping with 95,186 labeled datapoints from satellite imagery, supporting machine learning research for food security.
 - [CWFID](https://github.com/cwfid/dataset) - Dataset comprising field images, vegetation segmentation masks and crop/weed plant type annotations.
 - [FAO/NASA Harvest Crop Type Dataset](https://data.harvestportal.org/dataset/fao-bha-nasa-harvest-public-crop-type-datasets) - Ground truth crop type observations dataset with geolocated field data for validation and training of cropland classification models.
+- [Furrow](https://furrow.land/farmland-price-index) - Farmland prices in 37 countries on 6 continents from national statistics.
 - [Growstuff](https://www.growstuff.org/crops) - Record keeping & crop database, nice API
 - [India Agri Export Price Index](https://nidhi-bhai.github.io/india-agri-export-prices/) - Weekly reference prices for Indian agri exports (USD/kg from UN Comtrade, INR/quintal mandi prices from Agmarknet) with sources, an append-only history and CSV/JSON downloads.
+- [India Land Data](https://github.com/Vyzma-AI/india-land-data) - Official land-record portals for 11 Indian states and Indian land area units (gunta, bigha, kanal and others) with state variations, as CC BY 4.0 JSON.
 - [PlantVillage](https://www.kaggle.com/datasets/emmarex/plantdisease) - Dataset containing leaf images of healthy and diseased plants, covering 38 disease classes across 14 different crops.
 - [SoybeanYield](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction?tab=readme-ov-file) - A multimodal agricultural dataset for soybean yield forecasting, integrating yield performance, management practices, weather data, and soil parameters. 
 - [TERRA REF](https://terraref.org) - 1PB public domain high resolution sensor data from sorghum breeding trials ([data publication](https://doi.org/10.5061/dryad.4b8gtht99) with large files available on [globus.org at ncsa#terra-public](https://app.globus.org/file-manager?origin_id=e8feaff4-96cd-11ea-bf90-0e6cccbb0103&origin_path=%2F))
+- [USDA Market Prices](https://juantorresmi.github.io/usda-market-prices/) - Daily USDA boxed beef, pork and fed cattle prices by cut and region, with history since 2020 and free CSV downloads, in English and Spanish.
 
 ## Data Standardization, Interoperability and APIs
 
 - [AgGateway’s ADAPT Toolkit](https://adaptframework.org) - Open Source project providing tools to simplify communication between growers, their machines, and their partners.
+- [Agro GPS MCP](https://github.com/TheHiddenPandaDev/agro_gps_mcp) - MCP server exposing the official plant protection product registers of 30 European countries (authorisation status, active substances, authorised uses per crop) to AI assistants; free, no key.
 - [Agstack](https://github.com/agstack) - Open-Source Digital Infrastructure for the Agriculture Ecosystem.
 - [API-Code-Samples](https://github.com/aWhereAPI/API-Code-Samples) - Contains aWhere's API platform code samples.
 - [Botanica](https://github.com/Michael-A-Kuykendall/botanica) - Production-ready Rust crate for professional botanical data management with taxonomic hierarchy, cultivation tracking, and Darwin Core compliance.
@@ -79,6 +87,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [MyJohnDeereAPI-OAuth2-Java-Example](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth2-Java-Example) - Java MyJohnDeere API client example.
 - [MyJohnDeereAPI-OAuth2-NodeJS-Example](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth2-NodeJS-Example) - Node.js MyJohnDeere API client example.
 - [MyJohnDeereAPI-OAuth2-Python-Example](https://github.com/JohnDeere/MyJohnDeereAPI-OAuth2-Python-Example) - Python MyJohnDeere API client example.
+- [Open-Agriculture](https://github.com/Open-Agriculture) - Free and open source ISOBUS (ISO 11783) tools, including the AgIsoStack++ library, a Virtual Terminal, a DDOP editor and a VT object pool designer.
 - [OpenTeam](https://openteam.community/) - Open Technology Ecosystem for Agricultural Management
 - [SampleData](https://github.com/JohnDeere/SampleData) - Sample datacards, shapefiles, and other files you can use for testing.
 - [SencropAPI-JavaScript-Client](https://github.com/sencrop/sencrop-js-api-client) - Sencrop API Javascript client implementation. Read and manage Sencrop weather stations.
@@ -88,6 +97,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [Ekylibre](https://github.com/ekylibre/ekylibre) - Farm management information system for farmers and small enterprises built with Ruby on Rails and PostgreSQL/PostGIS.
 - [farmOS](https://github.com/farmOS/farmOS) - Web-based farm record keeping application built with Drupal and PHP.
 - [GrowGood](https://gitlab.com/growgood)) - GrowGood is an open-source farm management platform using open standards like ValueFlows and JSON-LD to help track and share interoperable data across agricultural operations and marketplaces.
+- [GrowerHub](https://github.com/aspinozaxxx-lab/growerhub) - Greenhouse and small-farm management with Zigbee2MQTT monitoring, plant and watering journals, and lighting and irrigation automation.
 - [LiteFarm](https://github.com/LiteFarmOrg/LiteFarm) - LiteFarm is the world’s first community-led, not-for-profit, Farm management system
 - [Soil Mate](https://github.com/Open-Source-Agriculture/soil_mate) - Helper app designed to assist the collection of soil data.
 - [Tania](https://github.com/Tanibox/tania-core) - Free and open source farming management system for everyone built with Go and Vue.js.
@@ -110,7 +120,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 ## IoT, Hardware
 
-- [AgOpenGPS](https://github.com/farmerbriantee/AgOpenGPS) - Ag precision mapping and section control software.
+- [AgOpenGPS](https://github.com/AgOpenGPS-Official/AgOpenGPS) - Ag precision mapping and section control software.
 - [Farm-Data-Relay-System](https://github.com/timmbogner/Farm-Data-Relay-System) - System using ESP-NOW, LoRa, and other protocols to transport sensor data in remote areas without relying on WiFi.
 - [Farm Hack](https://farmhack.org/tools) - Worldwide community of farmers that build and modify our own tools.
 - [Open Agriculture Foundation](https://github.com/OpenAgricultureFoundation) -  Open Source ecosystem of technologies that enable and promote transparency, networked experimentation, education, and hyper-local production.
