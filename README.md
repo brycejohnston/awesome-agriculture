@@ -31,6 +31,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [FarmBot-ROS](https://github.com/farmbot-ros/) - Open source farming robot.
 - [Fields2Cover](https://github.com/Fields2Cover/Fields2Cover) - Robust and efficient coverage paths for autonomous agricultural vehicles.
 - [Field Friend](https://github.com/zauberzeug/field_friend) - A Development Platform for Autonomous Weeding. 
+- [Field Mission Planner](https://github.com/tecelskyyivan-alt/ardu-field-planner) - Open-source spraying route planner for ArduPilot drones (coverage routes around obstacles, MAVLink upload, offline).
 - [Romi project](https://media.romi-project.eu/documents/index.html) - Europe-funded research project 
 - [ROS Agriculture](http://rosagriculture.org/) - Open Source community focusing on using Robot Operating System to empower farmers with robotics tools. 
 - [Weedinator](https://hackaday.io/project/53896-weedinator-2019) - Line following weeding robot
