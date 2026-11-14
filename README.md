@@ -102,6 +102,8 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [LiteFarm](https://github.com/LiteFarmOrg/LiteFarm) - LiteFarm is the world’s first community-led, not-for-profit, Farm management system
 - [Soil Mate](https://github.com/Open-Source-Agriculture/soil_mate) - Helper app designed to assist the collection of soil data.
 - [Tania](https://github.com/Tanibox/tania-core) - Free and open source farming management system for everyone built with Go and Vue.js.
+- [Set2Pip](https://www.set2pip.com/) - Set2Pip is a web app for backyard poultry keepers managing chicken, duck, quail, turkey, and other poultry incubation. It brings hatch countdowns, temperature and humidity logs, candling, turning, notes, breeds, photos, reminders, and reports into one workspace.
+
 
 
 ## Geospatial and GIS
