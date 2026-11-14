@@ -42,6 +42,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Calculators
 
 - [CoverCalc Pro Landscape Quantity Kit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) - MIT-licensed offline browser checker for landscape volumes and whole-bag counts.
+- [Direct Beef Tools](https://github.com/cmhenry79/direct-beef-tools) - Browser-only worksheet for comparing another-sale net value with direct-to-customer beef break-even and target prices.
 - [farm-calculators](https://github.com/brycejohnston/farm-calculators) - WordPress plugin for calculating various farming and crop related information.
 - [flower-farm-math](https://github.com/SaschaHeyer/flower-farm-math) - Zero-dependency JavaScript library for flower farm and farmer-florist math: wedding stem counts, costs-up CSA bouquet pricing, and a bloom-to-sales weekly reconciliation of stems cut vs. promised by variety.
 - [mycro-grow](https://github.com/SaschaHeyer/mycro-grow) - JavaScript library and CLI for gourmet mushroom cultivation math: substrate hydration, spawn ratio, biological-efficiency yield, and batch economics.
