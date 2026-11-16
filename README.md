@@ -61,6 +61,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 
 ## Crop Modeling, Phenotyping, and Pathology
 
+- [Contour Alley Designer](https://github.com/viridisconservation/contour-alley-designer) - Field-scale agroforestry design model (contour alley cropping, shelterbelts, silvopasture) that simulates 40 years on real terrain and soils; research software in development, with process rates and prices labeled as assumptions.
 - [Open Plant Pathology](https://openplantpathology.netlify.app/) - A community that values open data and computational tools for advancing epidemiology and pathogen population biology and ecology.
 
 ## Datasets
