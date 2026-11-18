@@ -16,6 +16,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
   - [Research and General Data](#research-and-general-data)
   - [Regional Data](#regional-data)
     - [India](#india)
+    - [Nepal](#nepal)
     - [United States](#united-states)
 - [Data Standardization, Interoperability and APIs](#data-standardization-interoperability-and-apis)
 - [Farm Management Systems and Record Keeping](#farm-management-systems-and-record-keeping)
@@ -101,6 +102,10 @@ Country and location-specific reference data for markets, land records, and grow
 - [India Agri Export Price Index](https://nidhi-bhai.github.io/india-agri-export-prices/) - Weekly reference prices for Indian agri exports (USD/kg from UN Comtrade, INR/quintal mandi prices from Agmarknet) with sources, an append-only history and CSV/JSON downloads.
 - [India Land Data](https://github.com/Vyzma-AI/india-land-data) - Official land-record portals for 11 Indian states and Indian land area units (gunta, bigha, kanal and others) with state variations, as CC BY 4.0 JSON.
 - [VarshaKrishi Field NDVI](https://www.varshakrishi.com/open-data) - One year of Sentinel-2 NDVI for a farm field near Katol, India, with field-level cloud and haze flags (CC BY 4.0, CSV/JSON).
+
+#### Nepal
+
+- [Nepal Open Farm Data](https://github.com/ashiskharel/nepal-open-farm-data) - District figures for coffee, tea, large cardamom, apple, plum and related crops from the Nepal agriculture ministry (MoALD) statistical yearbooks, as CC BY 4.0 CSV.
 
 #### United States
 
