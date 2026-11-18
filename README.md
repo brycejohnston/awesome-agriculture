@@ -67,6 +67,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 ## Crop Modeling, Phenotyping, and Pathology
 
 - [apsimNGpy](https://github.com/MAGALA-RICHARD/apsimNGpy) - Python interface for running and analysing APSIM Next Generation simulations.
+- [Contour Alley Designer](https://github.com/viridisconservation/contour-alley-designer) - Field-scale agroforestry design model (contour alley cropping, shelterbelts, silvopasture) that simulates 40 years on real terrain and soils. Research software in development.
 - [CroptimizR](https://github.com/SticsRPacks/CroptimizR) - R package for parameter estimation and uncertainty analysis of crop models.
 - [DSSAT](https://github.com/DSSAT/dssat-csm-os) - Decision Support System for Agrotechnology Transfer cropping system model.
 - [Epicrop.jl](https://codeberg.org/adamhsparks/Epicrop.jl) - Crop disease epidemic simulation using a compartmental (HLIP) model, in Julia.
