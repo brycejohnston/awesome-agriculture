@@ -1,0 +1,47 @@
+{{ define "main" }}
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="{{ site.Params.orgURL }}">{{ site.Params.org }}</a>
+    <div class="search" hidden>
+      <label for="q" class="sr-only">Filter the list</label>
+      <input id="q" type="search" placeholder="Filter projects, e.g. weather, ROS, dataset" autocomplete="off" spellcheck="false">
+      <span id="count" class="count" aria-live="polite"></span>
+    </div>
+    <a class="gh" href="{{ site.Params.repo }}">Contribute on GitHub</a>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="side">
+    <nav class="toc" aria-label="Sections">
+      <h2 class="side__title">Sections</h2>
+      {{ .TableOfContents }}
+    </nav>
+    <section class="legend" aria-label="Activity legend">
+      <h2 class="side__title">Activity</h2>
+      <ul>
+        <li><span class="act act--fresh">within 6 months</span></li>
+        <li><span class="act act--aging">within 2 years</span></li>
+        <li><span class="act act--old">over 2 years</span></li>
+        <li><span class="tag">archived</span></li>
+        <li><span class="tag tag--missing">not found</span></li>
+        <li><span class="lic">MIT</span> licence (SPDX id)</li>
+        <li><span class="lic lic--nc">CC-BY-NC-4.0 · non-commercial</span> open, no commercial use</li>
+        <li><span class="lic lic--none">no licence</span> none detected</li>
+      </ul>
+      <p>Last commit and licence for repositories. For organisations: latest activity across all repositories, and the licences of their five most-starred ones. Website entries show the licence of the project behind them, checked by hand.</p>
+    </section>
+  </aside>
+
+  <main id="list" class="content">
+    {{ .Content }}
+  </main>
+</div>
+
+<footer class="footer">
+  <p>Activity data from the GitHub, GitLab and Codeberg APIs, refreshed {{ now.Format "2 January 2006" }}.
+     The list is maintained in <a href="{{ site.Params.repo }}/blob/master/README.md">README.md</a>
+     by <a href="https://github.com/brycejohnston">Bryce Johnston</a> and the
+     <a href="{{ site.Params.orgURL }}">{{ site.Params.org }}</a>.</p>
+</footer>
+{{ end }}

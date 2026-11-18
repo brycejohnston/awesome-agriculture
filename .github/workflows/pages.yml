@@ -1,0 +1,89 @@
+name: Publish site
+
+on:
+  push:
+    branches: [master, staging]
+  pull_request:
+  schedule:
+    - cron: "17 20 * * 0" # weekly, Sunday 20:17 UTC (Monday morning in Australia), refreshes activity data
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Deploys (master, not pull requests) share one group; other builds get a group per ref.
+concurrency:
+  group: pages-${{ (github.ref == 'refs/heads/master' && github.event_name != 'pull_request') && 'deploy' || github.ref }}
+  cancel-in-progress: false
+
+env:
+  HUGO_VERSION: "0.162.1"
+  HUGO_SHA256: "4bfcdb092d0306586f1b72e5687787ead053faab2d71f09951d3c5fecde66873"
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Install Hugo (pinned, checksum verified)
+        run: |
+          set -euo pipefail
+          tarball="hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+          curl -fsSL -o "${RUNNER_TEMP}/${tarball}" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${tarball}"
+          echo "${HUGO_SHA256}  ${RUNNER_TEMP}/${tarball}" | sha256sum -c -
+          mkdir -p "${RUNNER_TEMP}/hugo"
+          tar -xzf "${RUNNER_TEMP}/${tarball}" -C "${RUNNER_TEMP}/hugo" hugo
+          echo "${RUNNER_TEMP}/hugo" >> "${GITHUB_PATH}"
+
+      - name: Configure Pages
+        id: pages
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+
+      - name: Build
+        env:
+          HUGO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HUGO_ENVIRONMENT: production
+          BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          set -euo pipefail
+          hugo version
+          if [ -n "${BASE_URL}" ]; then
+            hugo --gc --minify --baseURL "${BASE_URL}/"
+          else
+            hugo --gc --minify
+          fi
+
+      - name: Upload Pages artefact
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: ./public
+
+      # Staging and pull request builds: downloadable preview, never deployed.
+      - name: Upload preview
+        if: github.ref != 'refs/heads/master' || github.event_name == 'pull_request'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: site-preview
+          path: ./public
+          retention-days: 7
+
+  deploy:
+    if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
