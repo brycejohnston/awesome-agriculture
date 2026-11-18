@@ -215,6 +215,7 @@ Software for moving food beyond the farm gate: farmer marketplaces, food co-ops,
 - [OpenDroneMap](https://github.com/OpenDroneMap/ODM) - Drone image processing into orthomosaics, elevation models and plant health maps.
 - [Raster Vision](https://github.com/azavea/raster-vision) - Deep learning for aerial/satellite imagery.
 - [Sen2Agri](https://github.com/Sen2Agri/Sen2Agri-System) - Software system processing high resolution satellite images for agricultural purposes.
+- [sentinel-crop-pipeline](https://github.com/muend/sentinel-crop-pipeline) - Reproducible Sentinel-2 L2A data preparation for crop-classification models: scene discovery, cloud masking, patches, spatially blocked splits and label masks, with an optional Gemini or Claude scene filter.
 - [WebODM](https://github.com/WebODM/WebODM) - Web interface for processing and sharing OpenDroneMap drone surveys.
 
 ## License
