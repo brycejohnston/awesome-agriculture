@@ -94,7 +94,7 @@ Country and location-specific reference data for markets, land records, and grow
 
 #### Nepal
 
-- [Nepal Open Farm Data](https://github.com/ashiskharel/nepal-open-farm-data) - CC BY 4.0 district figures for coffee, tea, large cardamom, apple, plum and related crops from MoALD Statistical Information on Nepalese Agriculture 2080/81 and 2081/82, plus a catalog of medicinal plants that the yearbook does not quantify. CSV.
+- [Nepal Open Farm Data](https://github.com/ashiskharel/nepal-open-farm-data) - District figures for coffee, tea, large cardamom, apple, plum and related crops from the Nepal agriculture ministry (MoALD) statistical yearbooks, as CC BY 4.0 CSV.
 
 #### United States
 
