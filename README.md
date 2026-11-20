@@ -89,6 +89,7 @@ Research datasets and collections with broad agricultural applications.
 - [FAO/NASA Harvest Crop Type Dataset](https://data.harvestportal.org/dataset/fao-bha-nasa-harvest-public-crop-type-datasets) - Ground truth crop type observations dataset with geolocated field data for validation and training of cropland classification models.
 - [Furrow](https://furrow.land/farmland-price-index) - Farmland prices in 37 countries on 6 continents from national statistics.
 - [Growstuff](https://www.growstuff.org/crops) - Record keeping & crop database, nice API
+- [Kiwifruit Atlas](https://kiwifruitatlas.com/data) - Open data on world kiwifruit production, trade, prices and cultivars from FAOSTAT, Eurostat and USDA, with CSV downloads and a free read-only API; CC BY 4.0, cited via DOI [10.5281/zenodo.23931196](https://doi.org/10.5281/zenodo.23931196).
 - [PlantVillage](https://www.kaggle.com/datasets/emmarex/plantdisease) - Dataset containing leaf images of healthy and diseased plants, covering 38 disease classes across 14 different crops.
 - [Robot Lawn Mower Specs](https://yumaheymans.github.io/robot-lawn-mower-specs/) - CC BY 4.0 dataset of robotic mower specifications with cited sources and CSV/JSON downloads.
 - [SoybeanYield](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) - A multimodal agricultural dataset for soybean yield forecasting, integrating yield performance, management practices, weather data, and soil parameters.
