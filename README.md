@@ -48,6 +48,7 @@ Contributions welcome! Please follow the [contributing guidelines](https://githu
 - [Direct Beef Tools](https://github.com/cmhenry79/direct-beef-tools) - Browser-only worksheet for comparing another-sale net value with direct-to-customer beef break-even and target prices.
 - [farm-calculators](https://github.com/brycejohnston/farm-calculators) - WordPress plugin for calculating various farming and crop related information.
 - [flower-farm-math](https://github.com/SaschaHeyer/flower-farm-math) - Zero-dependency JavaScript library for flower farm and farmer-florist math: wedding stem counts, costs-up CSA bouquet pricing, and a bloom-to-sales weekly reconciliation of stems cut vs. promised by variety.
+- [handybackyard-mulch-calculator](https://github.com/dahusanren/handybackyard-mulch-calculator) - MIT-licensed browser calculator for mulch volume: cubic yards, 2 cu ft and 3 cu ft bag counts, and coverage depth for a garden bed. Live at https://handybackyard.com/mulch-calculator.
 - [mycro-grow](https://github.com/SaschaHeyer/mycro-grow) - JavaScript library and CLI for gourmet mushroom cultivation math: substrate hydration, spawn ratio, biological-efficiency yield, and batch economics.
 - [yard-material-coverage-data](https://github.com/demi-valerith/yard-material-coverage-data) - Open landscape material coverage, density, and bag conversion data with a reusable calculator component.
 
