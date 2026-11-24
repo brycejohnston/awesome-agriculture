@@ -1,6 +1,6 @@
-# Hugo site for https://awesome-agriculture.gdf.org.au/
+# Hugo site for https://awesome-agriculture.growingdatafoundation.org/
 # README.md is the single source of truth; it is mounted as the home page.
-baseURL = "https://awesome-agriculture.gdf.org.au/"
+baseURL = "https://awesome-agriculture.growingdatafoundation.org/"
 locale = "en-AU"
 title = "Awesome Agriculture"
 disableKinds = ["taxonomy", "term", "RSS", "section", "page"]
