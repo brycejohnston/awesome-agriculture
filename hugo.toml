@@ -57,6 +57,7 @@ enableRobotsTXT = true
   "https://www.varshakrishi.com/open-data" = ["CC-BY-4.0", "MIT"]
   "https://nidhi-bhai.github.io/india-agri-export-prices" = ["MIT"]
   "https://yumaheymans.github.io/robot-lawn-mower-specs" = ["CC-BY-4.0"]
+  "https://doi.org/10.25739/78mn-4394" = ["PDDL-1.0"]
 
 # Licences verified by reading the licence file, for repositories whose forge API
 # reports "other"/NOASSERTION or nothing. Keys: lower-case "owner/repo".
