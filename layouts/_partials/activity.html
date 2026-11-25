@@ -1,0 +1,135 @@
+{{- /*
+  Look up repository activity for a parsed URL (url.URL).
+  Returns dict "date" <time> "label" <string> "stars" <number|nil> "archived" <bool>
+  "license" <SPDX id | "other" | "none">, (license only for single repositories/projects)
+  and for organisations/groups "licenses" <unique SPDX ids>, "unlicensed" <count>, "sampled" <count>
+  (from the 5 most-starred repositories, forks and archived excluded),
+  or dict "missing" true when the repository/organisation returns 404,
+  or "" when the host is unsupported or the lookup fails.
+
+  github.com/owner/repo  -> repo metadata + date of the latest commit
+  github.com/owner       -> most recently pushed repository of the org/user
+  gitlab.com/group/proj  -> project metadata (last_activity_at)
+  gitlab.com/group       -> most recently active project of the group/user
+  codeberg.org/owner/repo -> repo metadata + date of the latest commit
+*/ -}}
+{{- $u := . -}}
+{{- $out := "" -}}
+{{- $path := strings.Trim $u.Path "/" -}}
+{{- $segs := cond (eq $path "") (slice) (split $path "/") -}}
+{{- $host := lower $u.Host | strings.TrimPrefix "www." -}}
+
+{{- if and (eq $host "github.com") (ge (len $segs) 1) (le (len $segs) 2) -}}
+  {{- $h := dict "Accept" "application/vnd.github+json" "X-GitHub-Api-Version" "2022-11-28" -}}
+  {{- with os.Getenv "HUGO_GITHUB_TOKEN" -}}
+    {{- $h = merge $h (dict "Authorization" (printf "Bearer %s" .)) -}}
+  {{- end -}}
+  {{- $api := "https://api.github.com" -}}
+  {{- if eq (len $segs) 2 -}}
+    {{- $repo := partial "fetchjson.html" (dict "url" (printf "%s/repos/%s/%s" $api (index $segs 0) (index $segs 1)) "headers" $h) -}}
+    {{- if and (reflect.IsMap $repo) (isset $repo "_missing") -}}
+      {{- $out = dict "missing" true -}}
+    {{- else if $repo -}}
+      {{- $date := $repo.pushed_at -}}
+      {{- $commits := partial "fetchjson.html" (dict "url" (printf "%s/repos/%s/commits?per_page=1" $api $repo.full_name) "headers" $h) -}}
+      {{- if reflect.IsSlice $commits -}}{{- range first 1 $commits -}}{{- $date = .commit.committer.date -}}{{- end -}}{{- end -}}
+      {{- $lic := "none" -}}
+      {{- with $repo.license -}}{{- $lic = cond (eq .spdx_id "NOASSERTION") "other" .spdx_id -}}{{- end -}}
+      {{- if or (eq $lic "other") (eq $lic "none") -}}
+        {{- with index site.Params.licenseOverrides (lower $repo.full_name) -}}{{- $lic = . -}}{{- end -}}
+      {{- end -}}
+      {{- with $date -}}
+        {{- $out = dict "date" (time.AsTime .) "label" "Last commit" "stars" $repo.stargazers_count "archived" $repo.archived "license" $lic -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $repos := partial "fetchjson.html" (dict "url" (printf "%s/users/%s/repos?sort=pushed&per_page=100&type=owner" $api (index $segs 0)) "headers" $h) -}}
+    {{- if and (reflect.IsMap $repos) (isset $repos "_missing") -}}
+      {{- $out = dict "missing" true -}}
+    {{- else if reflect.IsSlice $repos -}}
+      {{- /* Licence summary: the 5 most-starred repositories, excluding forks and archived ones. */ -}}
+      {{- $own := where (where $repos "fork" false) "archived" false -}}
+      {{- $lics := slice -}}
+      {{- $unlicensed := 0 -}}
+      {{- $sample := first 5 (sort $own "stargazers_count" "desc") -}}
+      {{- range $sample -}}
+        {{- $l := "" -}}
+        {{- with .license -}}{{- if ne .spdx_id "NOASSERTION" -}}{{- $l = .spdx_id -}}{{- end -}}{{- end -}}
+        {{- if not $l -}}{{- with index site.Params.licenseOverrides (lower .full_name) -}}{{- $l = . -}}{{- end -}}{{- end -}}
+        {{- if $l -}}{{- $lics = $lics | append $l -}}{{- else -}}{{- $unlicensed = add $unlicensed 1 -}}{{- end -}}
+      {{- end -}}
+      {{- /* Activity date from the organisation's own repositories (forks excluded), falling back to all. */ -}}
+      {{- $byPush := sort (where $repos "fork" false) "pushed_at" "desc" | default $repos -}}
+      {{- range first 1 $byPush -}}{{- with .pushed_at -}}
+        {{- $out = dict "date" (time.AsTime .) "label" "Latest activity across its own repositories" "stars" nil "archived" false "licenses" (uniq $lics) "unlicensed" $unlicensed "sampled" (len $sample) -}}
+      {{- end -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+{{- else if and (eq $host "gitlab.com") (ge (len $segs) 1) -}}
+  {{- $h := dict "Accept" "application/json" -}}
+  {{- $api := "https://gitlab.com/api/v4" -}}
+  {{- $glSpdx := dict "mit" "MIT" "apache-2.0" "Apache-2.0" "gpl-2.0" "GPL-2.0" "gpl-2.0+" "GPL-2.0-or-later" "gpl-3.0" "GPL-3.0" "gpl-3.0+" "GPL-3.0-or-later" "agpl-3.0" "AGPL-3.0" "agpl-3.0+" "AGPL-3.0-or-later" "lgpl-2.1" "LGPL-2.1" "lgpl-3.0" "LGPL-3.0" "mpl-2.0" "MPL-2.0" "bsd-2-clause" "BSD-2-Clause" "bsd-3-clause" "BSD-3-Clause" "eupl-1.2" "EUPL-1.2" "unlicense" "Unlicense" "cc0-1.0" "CC0-1.0" -}}
+  {{- if ge (len $segs) 2 -}}
+    {{- $p := partial "fetchjson.html" (dict "url" (printf "%s/projects/%s?license=true" $api (urlquery $path)) "headers" $h) -}}
+    {{- if and (reflect.IsMap $p) (isset $p "_missing") -}}
+      {{- $out = dict "missing" true -}}
+    {{- else if $p -}}
+      {{- $lic := "none" -}}
+      {{- with $p.license -}}{{- $lic = index $glSpdx (lower .key) | default .nickname | default .name | default "other" -}}{{- end -}}
+      {{- with index site.Params.licenseOverrides (lower $p.path_with_namespace) -}}{{- $lic = . -}}{{- end -}}
+      {{- with $p.last_activity_at -}}
+        {{- $out = dict "date" (time.AsTime .) "label" "Last activity" "stars" $p.star_count "archived" $p.archived "license" $lic -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $q := "projects?order_by=last_activity_at&sort=desc&per_page=1" -}}
+    {{- $list := partial "fetchjson.html" (dict "url" (printf "%s/groups/%s/%s&include_subgroups=true" $api (urlquery $path) $q) "headers" $h) -}}
+    {{- $isGroup := reflect.IsSlice $list -}}
+    {{- if not $isGroup -}}
+      {{- $list = partial "fetchjson.html" (dict "url" (printf "%s/users/%s/%s" $api (urlquery $path) $q) "headers" $h) -}}
+    {{- end -}}
+    {{- if and (reflect.IsMap $list) (isset $list "_missing") -}}
+      {{- $out = dict "missing" true -}}
+    {{- else if reflect.IsSlice $list -}}
+      {{- /* Licence summary: the group listing has no licences, so look up each of the
+             5 most-starred non-archived projects individually. */ -}}
+      {{- $kind := cond $isGroup "groups" "users" -}}
+      {{- $top := partial "fetchjson.html" (dict "url" (printf "%s/%s/%s/projects?order_by=star_count&sort=desc&per_page=5&archived=false&include_subgroups=true" $api $kind (urlquery $path)) "headers" $h) -}}
+      {{- if not (reflect.IsSlice $top) -}}{{- $top = slice -}}{{- end -}}
+      {{- $lics := slice -}}
+      {{- $unlicensed := 0 -}}
+      {{- range $top -}}
+        {{- $l := "" -}}
+        {{- $pp := partial "fetchjson.html" (dict "url" (printf "%s/projects/%d?license=true" $api (int .id)) "headers" $h) -}}
+        {{- if reflect.IsMap $pp -}}{{- with $pp.license -}}{{- $l = index $glSpdx (lower .key) | default .nickname | default "" -}}{{- end -}}{{- end -}}
+        {{- if not $l -}}{{- with index site.Params.licenseOverrides (lower .path_with_namespace) -}}{{- $l = . -}}{{- end -}}{{- end -}}
+        {{- if $l -}}{{- $lics = $lics | append $l -}}{{- else -}}{{- $unlicensed = add $unlicensed 1 -}}{{- end -}}
+      {{- end -}}
+      {{- range first 1 $list -}}{{- with .last_activity_at -}}
+        {{- $out = dict "date" (time.AsTime .) "label" "Latest activity across its projects" "stars" nil "archived" false "licenses" (uniq $lics) "unlicensed" $unlicensed "sampled" (len $top) -}}
+      {{- end -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+{{- else if and (eq $host "codeberg.org") (eq (len $segs) 2) -}}
+  {{- /* Codeberg (Forgejo): repositories only. Its API often reports no licence even when a
+         licence file exists, so a licence badge is shown only when one is detected. */ -}}
+  {{- $h := dict "Accept" "application/json" -}}
+  {{- $api := "https://codeberg.org/api/v1" -}}
+  {{- $repo := partial "fetchjson.html" (dict "url" (printf "%s/repos/%s/%s" $api (index $segs 0) (index $segs 1)) "headers" $h) -}}
+  {{- if and (reflect.IsMap $repo) (isset $repo "_missing") -}}
+    {{- $out = dict "missing" true -}}
+  {{- else if $repo -}}
+    {{- $date := $repo.updated_at -}}
+    {{- $commits := partial "fetchjson.html" (dict "url" (printf "%s/repos/%s/commits?limit=1&stat=false&verification=false&files=false" $api $repo.full_name) "headers" $h) -}}
+    {{- if reflect.IsSlice $commits -}}{{- range first 1 $commits -}}{{- $date = .commit.committer.date -}}{{- end -}}{{- end -}}
+    {{- $lic := "" -}}
+    {{- with $repo.licenses -}}{{- $lic = index . 0 -}}{{- end -}}
+    {{- if not $lic -}}{{- with index site.Params.licenseOverrides (lower $repo.full_name) -}}{{- $lic = . -}}{{- end -}}{{- end -}}
+    {{- with $date -}}
+      {{- $out = dict "date" (time.AsTime .) "label" "Last commit" "stars" $repo.stars_count "archived" $repo.archived "license" $lic -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

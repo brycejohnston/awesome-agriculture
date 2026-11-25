@@ -1,0 +1,69 @@
+{{- /*
+  Link render hook: renders the link and, for GitHub/GitLab repositories,
+  organisations and groups, appends activity information fetched at build time.
+  Only http(s), mailto and in-page/relative links are emitted as-is; any other
+  scheme (e.g. javascript:) is neutralised.
+*/ -}}
+{{- $dest := .Destination -}}
+{{- $u := urls.Parse $dest -}}
+{{- $scheme := lower $u.Scheme -}}
+{{- $external := in (slice "http" "https") $scheme -}}
+{{- $href := "#" -}}
+{{- if or $external (eq $scheme "mailto") (eq $scheme "") -}}{{- $href = $dest -}}{{- end -}}
+<a href="{{ $href | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} rel="noopener"{{ end }}>{{ .Text }}</a>
+{{- if and $external (not (in site.Params.noActivity (strings.TrimSuffix "/" $dest))) -}}
+  {{- $act := partial "activity.html" $u -}}
+  {{- if and $act $act.missing -}}
+    <span class="meta"><span class="tag tag--missing" title="Repository not found: deleted, moved or made private">not found</span></span>
+  {{- else if $act -}}
+    {{- with $act -}}
+    {{- $days := div (now.Sub .date).Hours 24 | math.Floor | int -}}
+    {{- $cls := "old" -}}
+    {{- if .archived -}}{{- $cls = "archived" -}}
+    {{- else if le $days 183 -}}{{- $cls = "fresh" -}}
+    {{- else if le $days 730 -}}{{- $cls = "aging" -}}
+    {{- end -}}
+    {{- $ago := "today" -}}
+    {{- if ge $days 730 -}}{{- $ago = printf "%d years ago" (div $days 365) -}}
+    {{- else if ge $days 60 -}}{{- $ago = printf "%d months ago" (div $days 30) -}}
+    {{- else if ge $days 14 -}}{{- $ago = printf "%d weeks ago" (div $days 7) -}}
+    {{- else if ge $days 2 -}}{{- $ago = printf "%d days ago" $days -}}
+    {{- else if eq $days 1 -}}{{- $ago = "yesterday" -}}
+    {{- end -}}
+    {{- $title := printf "%s: %s" .label (.date.Format "2 January 2006") -}}
+    <span class="meta"><span class="act act--{{ $cls }}" title="{{ $title }}" data-updated="{{ .date.Format "2006-01-02" }}">{{ $ago }}</span>
+    {{- with .stars -}}
+      {{- $s := cond (ge . 1000) (printf "%.1fk" (div (float .) 1000)) (printf "%d" (int .)) -}}
+      <span class="stars" title="Stars">★ {{ $s }}</span>
+    {{- end -}}
+    {{- with .license -}}
+      {{- if eq . "none" -}}<span class="lic lic--none" title="No licence file detected; reuse may not be permitted">no licence</span>
+      {{- else if eq . "other" -}}<span class="lic" title="Licence file present but not a recognised standard licence">other licence</span>
+      {{- else if in . "-ND" -}}<span class="lic lic--none" title="No-derivatives licence: the work may not be changed or adapted">{{ . }} · no derivatives</span>
+      {{- else if hasPrefix . "CC-BY-NC" -}}<span class="lic lic--nc" title="Open licence that rules out commercial use">{{ . }} · non-commercial</span>
+      {{- else -}}<span class="lic" title="Licence">{{ . }}</span>
+      {{- end -}}
+    {{- end -}}
+    {{- if .sampled -}}
+      {{- $n := .sampled -}}
+      {{- $free := slice -}}
+      {{- range .licenses -}}{{- if in . "-ND" -}}{{- else -}}{{- $free = $free | append . -}}{{- end -}}{{- end -}}
+      {{- $title := printf "Licences of its %d most-starred repositories (forks and archived excluded)" $n -}}
+      {{- if $free -}}
+        <span class="lic" title="{{ $title }}">{{ delimit $free " · " }}{{ with .unlicensed }} · {{ . }} unlicensed{{ end }}</span>
+      {{- else -}}
+        <span class="lic lic--none" title="{{ $title }}: no open source licence detected">no licence</span>
+      {{- end -}}
+    {{- end -}}
+    {{- if .archived -}}<span class="tag">archived</span>{{- end -}}
+    </span>
+    {{- end -}}
+  {{- else if not (in (slice "github.com" "gitlab.com" "codeberg.org") (lower $u.Host | strings.TrimPrefix "www.")) -}}
+    {{- /* Website entry: no forge data, so show the hand-checked licence, if any. */ -}}
+    {{- with index site.Params.siteLicences (strings.TrimSuffix "/" $dest) -}}
+      <span class="meta"><span class="lic" title="Licence of the project behind this website, checked by hand">{{ delimit . " · " }}</span></span>
+    {{- else -}}
+      <span class="meta"><span class="lic lic--none" title="No open licence found for this website entry; it is under public licence review">no licence</span></span>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

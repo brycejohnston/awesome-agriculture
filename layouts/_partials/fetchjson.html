@@ -1,0 +1,20 @@
+{{- /*
+  Fetch a JSON API URL and return the decoded value, or "" on any failure.
+  Context: dict "url" <string> "headers" <map>
+  An HTTP 404 returns dict "_missing" true, so callers can flag dead links.
+  Failures (network, HTTP 4xx/5xx, bad JSON) never break the build: the
+  link is simply rendered without activity information.
+*/ -}}
+{{- $result := "" -}}
+{{- with try (resources.GetRemote .url (dict "headers" .headers)) -}}
+  {{- with .Err -}}
+    {{- warnidf "activity-fetch" "activity: %s" . -}}
+  {{- else with .Value -}}
+    {{- with try (transform.Unmarshal .) -}}
+      {{- if not .Err -}}{{- $result = .Value -}}{{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $result = dict "_missing" true -}}
+  {{- end -}}
+{{- end -}}
+{{- return $result -}}
