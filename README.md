@@ -123,6 +123,7 @@ Country and location-specific reference data for markets, land records, and grow
 - [API-Code-Samples](https://github.com/aWhereAPI/API-Code-Samples) - Contains aWhere's API platform code samples.
 - [Botanica](https://github.com/Michael-A-Kuykendall/botanica) - Production-ready Rust crate for professional botanical data management with taxonomic hierarchy, cultivation tracking, and Darwin Core compliance.
 - [ClearAg API Examples](https://github.com/DTNClearAg/clearag_api_examples) - A collection of code examples using the ClearAg APIs.
+- [cropauth](https://github.com/flegbrum/cropauth) - Free hosted JSON API, no key, over the German (BVL PSM-API) and French (Anses E-Phy) plant protection product registers, with a dated daily change feed. Data under the BVL terms of use and Licence Ouverte 2.0; client code MIT.
 - [Fiware AgriFood](https://www.fiware.org/community/smart-agrifood/) - Open Source data standards and IoT framework that help connect farm systems and enable practical smart farming and agrifood solutions—part of the larger Fiware.org project.
 - [FoodOn](https://github.com/FoodOntology/foodon) - Open ontology for food, food sources and food processing.
 - [ISO-15143-3-API-OAuth2-CSharp-Example](https://github.com/JohnDeere/ISO-15143-3-API-OAuth2-CSharp-Example) - C# example for the John Deere ISO 15143-3 machine data API.
