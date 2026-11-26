@@ -112,6 +112,7 @@ Country and location-specific reference data for markets, land records, and grow
 #### United States
 
 - [massachusetts-frost-dates-zones](https://github.com/sackio/massachusetts-frost-dates-zones) - CC BY 4.0 CSV datasets of Massachusetts frost dates from NOAA normals and USDA hardiness zones for towns and villages.
+- [Nicker Hoof Problem Seasonality Index 2026](https://doi.org/10.5281/zenodo.24551183) - CC BY 4.0 index of monthly U.S. Google Trends interest in equine hoof and leg topics, with a separate state comparison for hoof abscess searches.
 - [US Farmers Market Statistics](https://harvestlymarkets.com/farmers-market-statistics/) - USDA-derived state-by-state farmers market counts and SNAP/EBT and organic-vendor statistics, with CC BY 4.0 CSV/JSON downloads.
 - [USDA Market Prices](https://juantorresmi.github.io/usda-market-prices/) - Daily USDA boxed beef, pork and fed cattle prices by cut and region, with history since 2020 and free CSV downloads, in English and Spanish.
 
